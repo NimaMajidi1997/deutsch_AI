@@ -1,0 +1,31 @@
+{
+  "lemma": "verpassen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "verpasst",
+    "praeteritum": "verpasste",
+    "perfekt": "hat verpasst"
+  },
+  "separable": false,
+  "rektion": "etw./jdn. (Akk.) verpassen; ugs.: jdm. etw. verpassen (eine Ohrfeige)",
+  "meaning_en": "to miss (a train, a chance, a person)",
+  "definition_de": "zu spät kommen, sodass etwas schon weg ist (den Zug verpassen); eine Gelegenheit nicht nutzen (eine Chance verpassen)",
+  "example_de": "Weil sie verschlafen hatte, verpasste sie den Zug nur um wenige Sekunden.",
+  "example_en": "Because she had overslept, she missed the train by just a few seconds.",
+  "visual_idea": "Collocation 'den Zug verpassen': an out-of-breath woman on the platform stretches her arm toward a train whose doors are closed and already pulling away. Her messy hair and half-buttoned coat show 'verschlafen'. Video optional (train leaving).",
+  "contrast_with": [
+    "nachholen",
+    "versäumen",
+    "vermissen"
+  ],
+  "image_prompt": "a young woman with messy hair and a half-buttoned coat standing out of breath at the edge of a German train station platform, one arm stretched out toward a red regional train whose doors are already closed as it pulls away, blank dark windows and plain red train side, her face frustrated, early morning light",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a young woman with messy hair runs onto a train platform just as the doors of a red regional train close, she stretches out her arm while the train slowly pulls away and leaves, then she drops her arm and sighs; static wide shot",
+  "tags": [
+    "Alltag",
+    "Verkehr",
+    "den Zug verpassen"
+  ]
+}

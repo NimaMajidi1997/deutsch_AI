@@ -1,0 +1,31 @@
+{
+  "lemma": "nachholen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "holt nach",
+    "praeteritum": "holte nach",
+    "perfekt": "hat nachgeholt"
+  },
+  "separable": true,
+  "rektion": "etw. (Akk.) nachholen",
+  "meaning_en": "to make up for, to catch up on",
+  "definition_de": "etwas, das man versäumt hat, später tun (Schlaf nachholen, eine Prüfung nachholen)",
+  "example_de": "Nach der Rente wollten wir reisen und alles nachholen, was wir in jungen Jahren verpasst haben.",
+  "example_en": "After retiring we wanted to travel and make up for everything we missed when we were young.",
+  "visual_idea": "User's scene: a grey-haired couple with backpacks spreading their arms with joy above a fjord. Their age plus the adventure shows they are finally doing what they missed when young; the sentence names the missed years. Pairs with verpassen.",
+  "contrast_with": [
+    "verpassen",
+    "aufholen",
+    "nachmachen"
+  ],
+  "image_prompt": "a grey-haired couple in their seventies with hiking backpacks standing on a rocky viewpoint high above a deep blue Norwegian fjord, both laughing and spreading their arms wide with joy, the woman holding a small camera, steep green mountains and a waterfall across the fjord, bright summer day",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a grey-haired couple with hiking backpacks reaches a rocky viewpoint above a Norwegian fjord, they look at the view, laugh and slowly spread their arms wide with joy; slow camera push-in from behind to the side",
+  "tags": [
+    "Reisen",
+    "Leben",
+    "alles nachholen"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "lemma": "überfahren",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "überfährt",
+    "praeteritum": "überfuhr",
+    "perfekt": "hat überfahren"
+  },
+  "separable": false,
+  "stress": "überfáhren",
+  "rektion": "jdn./etw. (Akk.) überfahren",
+  "meaning_en": "to run over; to run (a red light)",
+  "definition_de": "mit einem Fahrzeug über ein Tier oder einen Menschen fahren; auch: eine rote Ampel / ein Stoppschild überfahren (nicht anhalten). Trennbar (über|fahren, fährt über, ist übergefahren) heißt es selten 'mit der Fähre ans andere Ufer fahren'.",
+  "example_de": "Der Fahrer bremste scharf, sonst hätte er die Enten auf der Straße überfahren.",
+  "example_en": "The driver braked hard, otherwise he would have run over the ducks on the road.",
+  "visual_idea": "Collocation 'ein Tier überfahren', shown as a near miss: a car stopped just centimetres before a mother duck and her ducklings crossing the road. Clear, emotional and funny instead of gory; the Konjunktiv 'hätte … überfahren' shows the inseparable participle without ge-. 'Eine rote Ampel überfahren' was the second candidate but reads as 'über die Straße fahren'.",
+  "contrast_with": [
+    "über|fahren (mit der Fähre)",
+    "umfahren",
+    "anfahren"
+  ],
+  "image_prompt": "a small car has stopped abruptly on a quiet village road, its front bumper only a few centimetres from a mother duck leading six fluffy ducklings across the asphalt in a line, the driver behind the windshield with wide eyes and both hands gripping the wheel, low angle at road level next to the ducks, green fields and a farmhouse behind",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "on a quiet village road a mother duck leads her ducklings across the asphalt; a small car drives toward them and brakes hard, stopping just centimetres before the ducks, which calmly keep waddling across while the shocked driver exhales; static low camera at road level",
+  "tags": [
+    "Verkehr",
+    "Tiere",
+    "ein Tier überfahren"
+  ]
+}

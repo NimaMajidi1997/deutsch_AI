@@ -1,0 +1,34 @@
+{
+  "lemma": "befragen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "befragt",
+    "praeteritum": "befragte",
+    "perfekt": "hat befragt"
+  },
+  "separable": false,
+  "rektion": "jdn. (Akk.) zu + Dat. / nach + Dat. befragen (Passanten zu ihrer Meinung befragen)",
+  "meaning_en": "to question, to survey, to interview (ask someone a series of questions)",
+  "definition_de": "jemandem gezielt mehrere Fragen stellen, um Informationen oder Meinungen zu bekommen; auch von der Polizei (Zeugen befragen) oder in Umfragen (die Befragten)",
+  "example_de": "Trotz des strömenden Regens befragte die Reporterin auf dem Marktplatz mehrere Passanten zu ihrer Meinung.",
+  "example_en": "Despite the pouring rain, the reporter questioned several passers-by on the market square about their opinion.",
+  "visual_idea": "Collocation 'Passanten befragen' (street survey): a reporter holds a microphone to one passer-by while others with umbrellas wait their turn. The queue of people shows a series of persons being asked (not a single 'fragen'), the microphone + camera make it clearly a Befragung, and the rain adds humor. Beat 'die Polizei befragt Zeugen' (uniforms attract text, notepad is small) and 'der Arzt befragt den Patienten' (reads as a normal consultation).",
+  "contrast_with": [
+    "fragen",
+    "verhören",
+    "interviewen",
+    "beantworten"
+  ],
+  "image_prompt": "a young female reporter in a bright yellow raincoat holding a plain black handheld microphone toward a middle-aged man under a large umbrella who answers with a lively hand gesture, behind him three more passers-by with umbrellas wait in a short line, a cameraman with a shoulder camera seen from behind at the left edge, cobblestone market square of a German old town with half-timbered houses and plain storefronts, steady rain and shiny puddles, eye-level medium-wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels, logos",
+  "needs_video": false,
+  "video_prompt": "on a rainy cobblestone market square of a German old town, a young female reporter in a yellow raincoat holds a black microphone toward a man under an umbrella who answers and gestures, then she turns the microphone to the next passer-by in the short line; static camera, steady rain, puddles rippling",
+  "tags": [
+    "Medien",
+    "Kommunikation",
+    "Passanten befragen",
+    "Zeugen befragen",
+    "jdn. zu etwas befragen"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "default": "realistic",
+  "styles": {
+    "illustration": {
+      "image": "clean educational illustration, soft flat colors, clear silhouettes, simple background, centered composition, high detail",
+      "video": "soft flat illustration style"
+    },
+    "realistic": {
+      "image": "realistic documentary photograph, shot on a 35mm lens at f/2.8, soft natural daylight, true-to-life colors, fine natural skin texture and fabric detail, subtle film grain, sharp focus on the main subject, gently blurred uncluttered background, centered composition",
+      "video": "realistic documentary footage, natural daylight, true-to-life colors, natural motion, subtle film grain"
+    },
+    "comic": {
+      "image": "graphic novel style, a single full-frame comic panel without any lettering or speech bubbles, bold clean ink outlines, flat muted colors with cel shading, dynamic speed lines and impact effects around the action, expressive faces, simple background, centered composition",
+      "video": "graphic novel animation style, bold ink outlines, flat muted colors, no lettering"
+    }
+  }
+}

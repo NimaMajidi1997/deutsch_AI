@@ -1,0 +1,37 @@
+{
+  "lemma": "durchschauen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "schaut durch",
+    "praeteritum": "schaute durch",
+    "perfekt": "hat durchgeschaut"
+  },
+  "separable": true,
+  "stress": "dúrchschauen",
+  "pair": "durchschauen_untrennbar",
+  "rektion": "etw. (Akk.) durchschauen (= durchsehen, bes. südd./österr.); durch etw. durchschauen",
+  "meaning_en": "to look through, to go through (a collection, to check it)",
+  "definition_de": "etwas Stück für Stück ansehen, um etwas zu finden oder zu prüfen (Kannst du meinen Text mal durchschauen?); auch: durch etwas hindurchsehen. Untrennbar (durchscháuen, hat durchschaut) heißt es 'jdn. oder einen Trick erkennen'.",
+  "example_de": "Auf dem Flohmarkt hat sie eine ganze Kiste alter Bücher durchgeschaut, bis sie das richtige fand.",
+  "example_en": "At the flea market she went through a whole crate of old books until she found the right one.",
+  "user_example_de": "Bücher durchschauen",
+  "visual_idea": "User's collocation 'Bücher durchschauen' at a German Flohmarkt: a half-emptied crate next to a stack of books already checked shows she went through them one by one, and the one she holds up is what she was looking for. Covers are plain colored cloth to avoid fake text. Video optional (going through the crate).",
+  "contrast_with": [
+    "durchsehen",
+    "durchblättern",
+    "durchsuchen",
+    "durchscháuen (jdn. erkennen)"
+  ],
+  "image_prompt": "a young woman at an outdoor flea market stall on a sunny Saturday morning, beside a wooden crate of old books that is half empty, a tall untidy stack of about twelve books she has already checked piled next to it on the table, she holds up one small faded green book with a delighted smile, all books with plain colored cloth covers and blank spines, old town square with other stalls blurred behind",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "a young woman at an outdoor flea market stall on a sunny Saturday morning, standing in front of a wooden crate packed full of old books, nothing stacked beside it on the table yet, she looks into the crate with a curious, searching expression, all books with plain colored cloth covers and blank spines, old town square with other stalls blurred behind",
+  "video_prompt": "a young woman at a flea market stall takes old books out of a full wooden crate one by one, glances at each cover and puts it on a growing stack beside the crate, then pulls out a small faded green book, stops and holds it up with a delighted smile; static medium shot, steady camera",
+  "tags": [
+    "Alltag",
+    "Freizeit",
+    "Bücher durchschauen",
+    "etw. durchschauen"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "lemma": "ausschließen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "schließt aus",
+    "praeteritum": "schloss aus",
+    "perfekt": "hat ausgeschlossen"
+  },
+  "separable": true,
+  "rektion": "jdn. (aus/von etw. Dat.) ausschließen (aus einer Gruppe, vom Spiel ausschließen); etw. ausschließen (eine Möglichkeit, einen Fehler ausschließen); sich ausschließen (= sich aussperren)",
+  "meaning_en": "to exclude, to shut out; to rule out (a possibility)",
+  "definition_de": "jdn. nicht mitmachen lassen oder aus einer Gruppe entfernen (aus dem Verein ausschließen); auch: sagen, dass etwas nicht möglich ist (Ich kann einen Fehler nicht ausschließen.); sich ausschließen = ohne Schlüssel vor der eigenen Tür stehen.",
+  "example_de": "In der Pause schließen die anderen Mädchen Mia aus, deshalb steht sie allein am Rand.",
+  "example_en": "At break time the other girls exclude Mia, so she stands alone at the edge.",
+  "visual_idea": "Collocation 'jdn. (aus einer Gruppe) ausschließen': on a school playground four girls stand in a tight circle with their backs turned outward, laughing together, and one girl stands alone a few metres away, looking at them sadly. The closed circle and the lonely girl outside make 'aus-' (out) visible and give it emotion. Rejected: 'sich ausschließen' in a bathrobe (funny, but more often 'aussperren') and 'eine Möglichkeit ausschließen' (abstract).",
+  "contrast_with": [
+    "einschließen",
+    "integrieren",
+    "aussperren"
+  ],
+  "image_prompt": "a German school playground at break time, four girls stand in a tight closed circle, shoulder to shoulder with their backs turned outward, laughing together, a few metres away a single girl with a backpack stands alone at the edge of the playground and looks at the circle sadly, her arms hanging down, chestnut trees and a red brick school building behind, overcast light, wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "on a playground a lonely girl walks hesitantly toward a circle of four laughing girls; one of them glances at her and the circle closes tighter, shoulders together, and the girl stops and lowers her head; static wide shot",
+  "tags": [
+    "Schule",
+    "Gefühle",
+    "jdn. ausschließen",
+    "aus einer Gruppe ausschließen"
+  ]
+}

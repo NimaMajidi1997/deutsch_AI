@@ -1,0 +1,34 @@
+{
+  "lemma": "unterstellen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "stellt (sich) unter",
+    "praeteritum": "stellte (sich) unter",
+    "perfekt": "hat (sich) untergestellt"
+  },
+  "separable": true,
+  "stress": "únterstellen",
+  "pair": "unterstellen_untrennbar",
+  "rektion": "sich (irgendwo) unterstellen (bei Regen); etw. (Akk.) irgendwo unterstellen (das Fahrrad im Keller unterstellen)",
+  "meaning_en": "to take shelter (from rain); to store, to keep (somewhere)",
+  "definition_de": "sich bei Regen unter ein Dach stellen, um nicht nass zu werden; auch: etwas irgendwo abstellen und aufbewahren (das Auto in der Garage unterstellen). Untrennbar (unterstéllen, hat unterstellt) heißt es 'jdm. ohne Beweis etwas Negatives vorwerfen'.",
+  "example_de": "Als plötzlich ein Platzregen begann, stellten wir uns schnell unter dem Vordach einer Bäckerei unter.",
+  "example_en": "When a sudden downpour started, we quickly took shelter under the awning of a bakery.",
+  "visual_idea": "Collocation 'sich (bei Regen) unterstellen': two people pressed close together under a small shop awning while heavy rain pours down right in front of them. The dry spot under the roof versus the wall of rain shows the meaning in one frame, and everyone knows the feeling. 'Ein Fahrrad unterstellen' (storing) is common too, but a parked bike reads as 'abstellen'.",
+  "contrast_with": [
+    "unterstéllen (vorwerfen)",
+    "Schutz suchen",
+    "abstellen"
+  ],
+  "image_prompt": "two young people, a woman and a man with damp hair and jackets, standing pressed close together against the shop window under the small striped fabric awning of a cosy German bakery, a heavy downpour falls like a curtain just in front of the awning edge, big splashes on the cobblestone street, warm light and bread rolls behind the window glass, plain awning without any writing, the woman laughing, medium shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "two young people stand pressed together under a small bakery awning while heavy rain pours down in front of them; the man stretches one hand out into the rain, pulls it back wet and they both laugh; static medium shot",
+  "tags": [
+    "Wetter",
+    "Stadt",
+    "sich unterstellen",
+    "bei Regen"
+  ]
+}

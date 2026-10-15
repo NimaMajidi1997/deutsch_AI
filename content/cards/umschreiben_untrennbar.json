@@ -1,0 +1,34 @@
+{
+  "lemma": "umschreiben",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "umschreibt",
+    "praeteritum": "umschrieb",
+    "perfekt": "hat umschrieben"
+  },
+  "separable": false,
+  "stress": "umschréiben",
+  "pair": "umschreiben_trennbar",
+  "rektion": "etw. (Akk.) umschreiben (ein Wort, einen Begriff, ein Problem umschreiben)",
+  "meaning_en": "to paraphrase, to describe something in other words (without naming it)",
+  "definition_de": "etwas mit anderen Worten beschreiben, ohne das genaue Wort zu benutzen (Wenn dir ein Wort fehlt, umschreib es einfach!). Trennbar (úmschreiben, hat umgeschrieben) heißt es 'einen Text neu schreiben'.",
+  "example_de": "Beim Spieleabend umschreibt Jonas das Wort 'Giraffe', ohne es auszusprechen, und alle raten wild durcheinander.",
+  "example_en": "At games night Jonas describes the word 'giraffe' without saying it, and everyone guesses wildly.",
+  "visual_idea": "Collocation 'ein Wort umschreiben', as in the game Tabu (also a key skill for learners): at a games night Jonas holds a card with only a giraffe picture, turned toward the viewer and hidden from his friends, and talks eagerly with one hand held high for 'very tall', while the friends guess excitedly. The hidden picture plus the guessing faces show 'describe without naming'. Paraphrasing a missing word in a normal conversation was not picturable.",
+  "contrast_with": [
+    "úmschreiben (neu schreiben)",
+    "beschreiben",
+    "erklären"
+  ],
+  "image_prompt": "a cosy games night in a German living room, a young man stands and holds a small game card turned toward the viewer and hidden from his friends, the card shows only a simple drawing of a giraffe and nothing else, he talks eagerly and raises his other hand high above his head to show something very tall, three friends on the sofa lean forward and call out guesses with excited faces, warm lamp light, medium wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "at a games night a young man hides a picture card from his friends and describes it eagerly, raising his hand high above his head; the friends lean forward and call out guesses, until one of them shouts the answer and everyone laughs and cheers; static medium wide shot",
+  "tags": [
+    "Freizeit",
+    "Spiel",
+    "Sprache",
+    "ein Wort umschreiben"
+  ]
+}

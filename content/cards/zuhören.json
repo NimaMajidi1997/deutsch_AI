@@ -1,0 +1,32 @@
+{
+  "lemma": "zuhören",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "hört zu",
+    "praeteritum": "hörte zu",
+    "perfekt": "hat zugehört"
+  },
+  "separable": true,
+  "rektion": "jdm./einer Sache (Dat.) zuhören (gespannt, aufmerksam, geduldig zuhören)",
+  "meaning_en": "to listen (to someone, attentively)",
+  "definition_de": "aufmerksam hören, was jemand sagt oder erzählt (Hör mir doch mal zu!); anders als 'hören', das auch ohne Absicht passiert.",
+  "example_de": "Die Enkel hörten ganz gespannt zu, als die Oma von ihrer Kindheit auf dem Bauernhof erzählte.",
+  "example_en": "The grandchildren listened with rapt attention as grandma talked about her childhood on the farm.",
+  "visual_idea": "Collocation 'gespannt zuhören': a grandmother in an armchair tells a story with lively gestures, and three grandchildren on the rug lean forward with chins on their hands and wide eyes. The forward-leaning bodies show active listening, the difference to plain 'hören'. No book (that would be 'vorlesen', and books attract text). Rejected: a lecture hall (students on phones read as 'nicht zuhören') and comforting a friend (reads as 'trösten').",
+  "contrast_with": [
+    "hören",
+    "vorlesen",
+    "erzählen"
+  ],
+  "image_prompt": "a cosy living room in the evening, an elderly grandmother sits in an old armchair and tells a story with lively hand gestures and a warm smile, three grandchildren sit on the rug in front of her and lean forward with their chins on their hands, eyes wide and mouths slightly open, completely absorbed, a crackling fireplace beside them, warm firelight, medium wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a grandmother in an armchair tells a story with lively gestures; the three grandchildren on the rug lean further forward, then laugh together at a funny moment and lean in again; static medium wide shot, warm firelight",
+  "tags": [
+    "Familie",
+    "Kommunikation",
+    "jdm. zuhören",
+    "gespannt zuhören"
+  ]
+}

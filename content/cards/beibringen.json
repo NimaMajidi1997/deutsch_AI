@@ -1,0 +1,31 @@
+{
+  "lemma": "beibringen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "bringt bei",
+    "praeteritum": "brachte bei",
+    "perfekt": "hat beigebracht"
+  },
+  "separable": true,
+  "rektion": "jdm. (Dat.) etw. (Akk.) beibringen",
+  "meaning_en": "to teach (someone something)",
+  "definition_de": "jemandem zeigen und erklären, wie etwas geht, bis er es selbst kann (meist praktisch, nicht im Unterricht: jdm. Schwimmen, Fahrradfahren beibringen)",
+  "example_de": "Als ich sechs war, hat mir mein Vater im Park das Fahrradfahren beigebracht.",
+  "example_en": "When I was six, my father taught me to ride a bike in the park.",
+  "visual_idea": "Collocation 'jdm. das Fahrradfahren beibringen': a father running beside a child on a bike, one hand holding the saddle. Everyone knows this moment; it shows practical teaching (not 'unterrichten' in a classroom). Video: the father lets go and the child rides alone.",
+  "contrast_with": [
+    "lernen",
+    "unterrichten",
+    "lehren"
+  ],
+  "image_prompt": "a father running alongside his six-year-old daughter who is riding a small red bicycle on a park path, he bends down and holds the back of the saddle with one hand, the girl wears a helmet and looks ahead with concentration and excitement, green trees and a lawn around them, sunny afternoon, side view",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a father runs beside his young daughter on a red bicycle on a park path, holding the saddle; after a few steps he lets go and stops, and the girl keeps riding on her own while he raises his arms in joy; camera follows slowly from the side",
+  "tags": [
+    "Familie",
+    "Kindheit",
+    "jdm. das Fahrradfahren beibringen"
+  ]
+}

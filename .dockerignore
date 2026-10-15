@@ -1,0 +1,9 @@
+# Only web/ and content/cards go into the image.
+**
+!web/
+!content/cards/
+web/node_modules
+web/.next
+web/public/media
+web/*.tsbuildinfo
+web/.env*

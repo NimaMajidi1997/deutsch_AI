@@ -1,0 +1,33 @@
+{
+  "lemma": "entfalten",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "entfaltet",
+    "praeteritum": "entfaltete",
+    "perfekt": "hat entfaltet"
+  },
+  "separable": false,
+  "rektion": "etw. (Akk.) entfalten / sich entfalten",
+  "meaning_en": "to unfold; (sich ~) to develop, to blossom",
+  "definition_de": "etwas Gefaltetes ausbreiten/öffnen (die Flügel, eine Karte entfalten); übertragen: sich entfalten = sich frei entwickeln (eine Blüte, ein Talent entfaltet sich)",
+  "example_de": "Bevor der Adler vom Felsen losflog, entfaltete er seine riesigen Flügel.",
+  "example_en": "Before the eagle took off from the rock, it spread its huge wings.",
+  "visual_idea": "Collocation 'die Flügel entfalten': an eagle with wings spread fully open is an unmistakable, iconic picture of something folded becoming wide open ('ent-' = undo the folding). A still image could also be read as 'fliegen' or 'ausbreiten', so this card benefits from video: folded wings -> fully spread.",
+  "contrast_with": [
+    "falten",
+    "ausbreiten",
+    "öffnen"
+  ],
+  "image_prompt": "a large golden eagle standing on a rocky cliff edge, its huge wings spread wide open to both sides at full span, every long feather fanned out, alpine mountains and a pale morning sky behind, front view",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "wide shot of a golden eagle standing upright on a small rocky peak, the eagle is small in the center of the frame with lots of empty sky on both sides, its wings folded tightly against its body, calm and still, alpine mountains and a pale morning sky behind, front view",
+  "video_prompt": "wide static shot: a golden eagle stands on a small rocky peak with its wings folded against its body; very slowly, over the whole clip, it lifts and unfolds its wings, halfway open in the middle of the clip, and only at the very end reaches full span with long feathers fanned out; the whole wingspan stays inside the frame; static camera, alpine mountains behind",
+  "tags": [
+    "Natur",
+    "Tiere",
+    "die Flügel entfalten",
+    "Gegensatzpaar"
+  ]
+}

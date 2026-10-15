@@ -1,0 +1,31 @@
+{
+  "lemma": "herschieben",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "schiebt (vor sich) her",
+    "praeteritum": "schob (vor sich) her",
+    "perfekt": "hat (vor sich) hergeschoben"
+  },
+  "separable": true,
+  "rektion": "etw. (Akk.) vor sich (Dat.) herschieben",
+  "meaning_en": "to keep putting off (an unpleasant task); literally: to push something along in front of oneself",
+  "definition_de": "eine unangenehme Aufgabe oder Entscheidung immer wieder aufschieben, statt sie zu erledigen (die Steuererklärung vor sich herschieben); wörtlich: etwas vor sich schieben, während man vorwärtsgeht (einen Kinderwagen vor sich herschieben)",
+  "example_de": "Seit Wochen schiebt er die Steuererklärung vor sich her, statt sie endlich zu erledigen.",
+  "example_en": "For weeks he has been putting off his tax return instead of finally getting it done.",
+  "visual_idea": "Figurative idiom 'etw. vor sich herschieben': a man relaxes on the sofa with his phone while an untouched pile of tax papers waits on the coffee table, a cobweb stretching from the pile to the lamp. The cobweb shows 'seit Wochen', the relaxed pose shows avoiding it, and the humor makes it memorable. Every noun of the sentence (Steuererklärung, Wochen) is visible.",
+  "contrast_with": [
+    "aufschieben",
+    "verschieben",
+    "erledigen"
+  ],
+  "image_prompt": "a man in his thirties lying relaxed on a sofa in a cozy living room, smiling at his phone, on the coffee table in front of him a tall untouched pile of plain white paperwork, closed brown envelopes and a calculator, a large dusty cobweb stretching from the top of the pile to a nearby table lamp, a coffee mug beside it, soft afternoon light",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a man lies relaxed on a sofa smiling at his phone, he glances at a tall untouched pile of paperwork with a cobweb on the coffee table, sighs, pushes the pile a little further away with his foot and goes back to his phone; static medium shot",
+  "tags": [
+    "Alltag",
+    "Arbeit",
+    "etw. vor sich herschieben"
+  ]
+}

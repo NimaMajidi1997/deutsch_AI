@@ -1,0 +1,32 @@
+{
+  "lemma": "untergehen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "geht unter",
+    "praeteritum": "ging unter",
+    "perfekt": "ist untergegangen"
+  },
+  "separable": true,
+  "rektion": "in + Dat. (im Meer untergehen)",
+  "meaning_en": "to set (sun); to sink (ship)",
+  "definition_de": "hinter dem Horizont verschwinden (die Sonne geht unter); auch: im Wasser versinken (ein Schiff geht unter); übertragen: in der Menge / im Lärm untergehen (nicht bemerkt werden)",
+  "example_de": "Wir saßen am Strand der Ostsee, bis die Sonne langsam im Meer unterging.",
+  "example_en": "We sat on the Baltic Sea beach until the sun slowly set into the sea.",
+  "visual_idea": "Most frequent collocation 'die Sonne geht unter': the sun half sunk below the sea horizon makes the downward direction of unter- visible; a couple in a Strandkorb anchors it in a German everyday scene. Sinking ship was less everyday, the figurative 'im Lärm untergehen' not picturable. Video shows the sun sinking (state: sun above horizon → half under).",
+  "contrast_with": [
+    "aufgehen",
+    "sinken",
+    "der Sonnenuntergang"
+  ],
+  "image_prompt": "seen from behind on a wide Baltic Sea beach in the evening, a couple sits close together in a white wicker beach chair facing the calm sea, the large orange sun is exactly half sunk below the flat sea horizon, a long golden reflection on the water leading toward them, deep orange and violet sky, a few gulls",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "seen from behind on a wide Baltic Sea beach in the evening, a couple sits close together in a white wicker beach chair facing the calm sea, the large bright yellow-orange sun hangs low in the sky well above the flat sea horizon, a golden reflection on the water, warm sky, a few gulls",
+  "video_prompt": "seen from behind, a couple sits in a beach chair on a Baltic Sea beach while the large orange sun slowly sinks toward the flat horizon and goes down halfway into the sea, the sky deepening from gold to orange and violet; static wide camera",
+  "tags": [
+    "Natur",
+    "Meer",
+    "die Sonne geht unter"
+  ]
+}

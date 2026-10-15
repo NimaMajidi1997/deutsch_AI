@@ -1,0 +1,34 @@
+{
+  "lemma": "untertauchen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "taucht unter",
+    "praeteritum": "tauchte unter",
+    "perfekt": "ist untergetaucht"
+  },
+  "separable": true,
+  "rektion": "in etw. (Dat.) untertauchen; jdn. untertauchen (hat); fig.: im Ausland / bei Freunden untertauchen",
+  "meaning_en": "to dive under, to go under (water); fig.: to go into hiding, to disappear for a while",
+  "definition_de": "unter die Wasseroberfläche gehen; übertragen: sich verstecken oder sich eine Zeit lang aus der Öffentlichkeit zurückziehen (Nach dem Überfall ist der Täter untergetaucht.)",
+  "example_de": "Der Junge holte tief Luft, hielt sich die Nase zu und tauchte im See unter.",
+  "example_en": "The boy took a deep breath, held his nose and dived under in the lake.",
+  "user_example_de": "Ich bin eine Weile untergetaucht, um neue Kraft und Ideen zu sammeln.",
+  "visual_idea": "Literal collocation 'im Wasser untertauchen': an over-under shot splits the frame at the waterline, so the boy is visibly below the surface (unter-) with bubbles marking where he just went down. The figurative 'disappear for a while' builds on this picture. Video recommended (going under).",
+  "contrast_with": [
+    "tauchen",
+    "auftauchen",
+    "verschwinden"
+  ],
+  "image_prompt": "a split-level over-under view of a calm clear lake in summer, the waterline crossing the middle of the frame; above the water a sunny shore with pine trees and a wooden jetty, below the water a boy of about ten fully submerged just under the surface, eyes closed, cheeks puffed, pinching his nose, a trail of silver air bubbles rising to the rippling spot where he went under",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "a split-level over-under view of a calm clear lake in summer, the waterline crossing the middle of the frame; above the water a sunny shore with pine trees and a wooden jetty, a boy of about ten standing chest-deep in the water, head above the surface, taking a deep breath with puffed cheeks, his legs visible below the waterline",
+  "video_prompt": "a boy standing chest-deep in a clear lake takes a deep breath, pinches his nose and slowly sinks down until his head disappears under the surface, silver bubbles rising where he went under; split-level over-under view, static camera, calm water",
+  "tags": [
+    "Natur",
+    "Freizeit",
+    "im Wasser untertauchen",
+    "im Ausland untertauchen"
+  ]
+}

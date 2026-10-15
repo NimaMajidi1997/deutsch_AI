@@ -1,0 +1,32 @@
+{
+  "lemma": "widerspiegeln",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "spiegelt wider",
+    "praeteritum": "spiegelte wider",
+    "perfekt": "hat widergespiegelt"
+  },
+  "separable": true,
+  "rektion": "sich in etw. (Dat.) widerspiegeln; etw. (Akk.) widerspiegeln (fig.)",
+  "meaning_en": "to reflect, to mirror",
+  "definition_de": "ein Bild zurückwerfen wie ein Spiegel (Die Berge spiegeln sich im See wider.); übertragen: etwas zeigen oder ausdrücken (Die Entscheidung spiegelt unsere Werte wider.)",
+  "example_de": "Am frühen Morgen spiegeln sich die schneebedeckten Berge im stillen See wider.",
+  "example_en": "In the early morning the snow-capped mountains are reflected in the still lake.",
+  "user_example_de": "Diese Entscheidungen spiegeln einfach unsere Einstellung zur Familie wider.",
+  "visual_idea": "Literal collocation 'sich im See widerspiegeln': snowy mountains mirrored perfectly in a calm lake, symmetric around the waterline. The 'wider-' (back) is visible as the mirrored image; the figurative meaning builds on it and is in definition_de.",
+  "contrast_with": [
+    "spiegeln",
+    "zeigen",
+    "ausdrücken"
+  ],
+  "image_prompt": "a perfectly still alpine lake at sunrise, snow-capped mountains and a dark pine forest mirrored exactly in the glassy water, the shoreline running across the middle of the frame so the scene is symmetrical, a small wooden rowing boat resting at the edge, soft pink and golden morning light",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a perfectly still alpine lake at sunrise mirrors snow-capped mountains, a gentle breeze sends soft ripples across the water so the reflection trembles, then the surface calms and the mirror image becomes sharp again; static wide camera",
+  "tags": [
+    "Natur",
+    "sich widerspiegeln",
+    "etw. widerspiegeln"
+  ]
+}

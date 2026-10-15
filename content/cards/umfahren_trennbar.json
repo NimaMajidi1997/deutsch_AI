@@ -1,0 +1,35 @@
+{
+  "lemma": "umfahren",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "fährt um",
+    "praeteritum": "fuhr um",
+    "perfekt": "hat umgefahren"
+  },
+  "separable": true,
+  "stress": "úmfahren",
+  "pair": "umfahren_untrennbar",
+  "rektion": "etw./jdn. (Akk.) umfahren (einen Pfosten, ein Schild, einen Radfahrer umfahren)",
+  "meaning_en": "to knock down, to run over (with a vehicle)",
+  "definition_de": "mit einem Fahrzeug gegen etwas fahren, sodass es umfällt (einen Poller, einen Zaun umfahren). Untrennbar (umfáhren, hat umfahren) heißt es 'um etwas herumfahren' (einen Stau umfahren).",
+  "example_de": "Beim Ausparken fuhr mein Nachbar seinen eigenen Briefkasten um und stieg verlegen aus.",
+  "example_en": "While pulling out of the parking space, my neighbour knocked over his own mailbox and got out, embarrassed.",
+  "visual_idea": "Collocation 'etw. beim Ausparken umfahren': the result state, a mailbox lying in the grass with its snapped post right behind the bumper of a car, and the embarrassed owner beside the open door with his hand on his forehead. Showing the knocked-over object (not the impact) is reliable, and hitting your own mailbox adds humor. Card and start frame share one exact side view (the car reverses left to right into the mailbox), so first+last-frame video only has to animate the collision, not a camera change.",
+  "contrast_with": [
+    "umfáhren (um etw. herumfahren)",
+    "anfahren",
+    "überfahren"
+  ],
+  "image_prompt": "exact side view at eye level of a small silver hatchback on a cobblestone driveway, front to the left, rear bumper to the right, lawn at the right, hedge and white house behind, morning light, static wide shot, right behind the bumper a single plain red unmarked metal mailbox lies on its side in the grass with its broken wooden post flat beside it, nothing standing on the lawn, the driver's door is open, one middle-aged man, the only person in the scene, stands at the door with one hand on his forehead",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "exact side view at eye level of a small silver hatchback on a cobblestone driveway, front to the left, rear bumper to the right, a plain red unmarked metal mailbox on the lawn at the right, hedge and white house behind, morning light, static wide shot, the mailbox stands upright on a wooden post half a metre behind the rear bumper, the car reverses slowly toward it, a middle-aged man at the wheel looks forward, unaware",
+  "video_prompt": "static side view of a front garden, camera does not move: a silver hatchback slowly reverses to the right, its rear bumper bumps into the red mailbox on its wooden post, and only at that moment the post snaps and the mailbox tips over into the grass; the car stops, the driver's door opens, a man steps out and puts his hand on his forehead",
+  "tags": [
+    "Verkehr",
+    "Auto",
+    "etw. umfahren",
+    "beim Ausparken"
+  ]
+}

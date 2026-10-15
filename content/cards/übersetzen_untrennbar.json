@@ -1,0 +1,34 @@
+{
+  "lemma": "übersetzen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "übersetzt",
+    "praeteritum": "übersetzte",
+    "perfekt": "hat übersetzt"
+  },
+  "separable": false,
+  "stress": "übersétzen",
+  "pair": "übersetzen_trennbar",
+  "rektion": "(etw. (Akk.)) (aus dem ... ins ...) übersetzen (einen Text ins Deutsche übersetzen); für jdn. übersetzen",
+  "meaning_en": "to translate",
+  "definition_de": "einen Text oder das Gesagte in eine andere Sprache übertragen (aus dem Arabischen ins Deutsche übersetzen; mündlich auch: dolmetschen). Trennbar (ǘbersetzen, ist übergesetzt) heißt es 'mit einem Boot ans andere Ufer fahren'.",
+  "example_de": "Beim Arzt übersetzt die zwölfjährige Mira alles für ihre Großmutter, die kaum Deutsch spricht.",
+  "example_en": "At the doctor's, twelve-year-old Mira translates everything for her grandmother, who hardly speaks any German.",
+  "visual_idea": "Collocation 'für jdn. übersetzen': a doctor explains something, and a girl sits between him and her grandmother, turned to the grandmother and passing on his words, while the grandmother listens closely. The middle position (between two people who can't talk directly) shows translation without any text; a book translation would attract fake text. Children translating for their family is a very real, touching everyday scene in Germany.",
+  "contrast_with": [
+    "ǘbersetzen (ans andere Ufer)",
+    "dolmetschen",
+    "erklären"
+  ],
+  "image_prompt": "a bright German doctor's consulting room, a friendly male doctor in a white coat sits behind his desk explaining something with an open hand gesture, facing him on two chairs sit an elderly grandmother with a headscarf and her twelve-year-old granddaughter, the girl sits between them and is turned toward her grandmother, speaking to her and gesturing, the grandmother leans in and listens attentively, warm light, medium shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in a doctor's room the doctor explains something with an open hand; the girl beside her grandmother listens, then turns to the grandmother and repeats it to her with small gestures, and the grandmother nods slowly; static medium shot",
+  "tags": [
+    "Gesundheit",
+    "Familie",
+    "Sprache",
+    "für jdn. übersetzen"
+  ]
+}

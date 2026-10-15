@@ -1,0 +1,31 @@
+{
+  "lemma": "überlaufen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "läuft über",
+    "praeteritum": "lief über",
+    "perfekt": "ist übergelaufen"
+  },
+  "separable": true,
+  "rektion": "zu + Dat. (zum Gegner überlaufen)",
+  "meaning_en": "to overflow; to defect (to the other side)",
+  "definition_de": "so voll werden, dass Flüssigkeit über den Rand fließt (die Badewanne läuft über; das bringt das Fass zum Überlaufen); auch: zur anderen Seite wechseln (zum Feind überlaufen). Untrennbar ist vor allem das Adjektiv 'überláufen' = zu voll mit Menschen (ein überlaufener Strand).",
+  "example_de": "Während ich telefonierte, ist die Badewanne übergelaufen, und das ganze Bad stand unter Wasser.",
+  "example_en": "While I was on the phone, the bathtub overflowed and the whole bathroom was under water.",
+  "visual_idea": "Most typical collocation 'die Badewanne läuft über': water pouring over the rim and a flooded floor show über- (over the edge) as a clear result state; the shocked man with the phone in the doorway matches the sentence and adds humor. 'Zum Feind überlaufen' and the idiom 'das Fass zum Überlaufen bringen' are hard to picture.",
+  "contrast_with": [
+    "überláufen (Adj., zu voll)",
+    "überkochen",
+    "überfluten"
+  ],
+  "image_prompt": "a white bathtub in a small tiled bathroom filled to the brim, the tap still running, water spilling over the rim in a thin sheet and flooding the whole floor, a bath mat and a pair of slippers floating in the shallow water, a man in the open doorway holds a smartphone to his ear with his mouth open in shock, wide view from the corner",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in a small tiled bathroom water runs from the tap into a full bathtub and starts spilling over the rim, spreading across the floor; a man on the phone appears in the doorway, stops and stares in shock; static wide camera",
+  "tags": [
+    "Wohnen",
+    "Haushalt",
+    "die Badewanne läuft über"
+  ]
+}

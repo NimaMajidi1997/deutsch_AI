@@ -1,0 +1,32 @@
+{
+  "lemma": "recherchieren",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "recherchiert",
+    "praeteritum": "recherchierte",
+    "perfekt": "hat recherchiert"
+  },
+  "separable": false,
+  "rektion": "etw. (Akk.) recherchieren; (zu/über etw.) recherchieren (im Internet, im Archiv recherchieren)",
+  "meaning_en": "to research, to investigate (gather information)",
+  "definition_de": "gründlich nach Informationen suchen, z. B. als Journalist, für eine Arbeit oder im Internet (gründlich, wochenlang recherchieren); die Recherche.",
+  "example_de": "Die Journalistin hat wochenlang recherchiert, bevor sie den Skandal um die Baufirma veröffentlichte.",
+  "example_en": "The journalist researched for weeks before she published the scandal surrounding the construction company.",
+  "visual_idea": "Collocation 'wochenlang recherchieren' (investigative journalism): late at night a journalist stands in front of a large wall covered with photos of people and buildings connected by red string, with coffee cups and folders around her. The famous 'investigation wall' shows weeks of collecting and linking information. The notes are blank coloured cards because paper attracts fake text. Rejected: a library (books → fake text) and googling on a laptop (reads as 'surfen').",
+  "contrast_with": [
+    "suchen",
+    "untersuchen",
+    "nachschlagen"
+  ],
+  "image_prompt": "late at night in a small office, a young woman journalist with rolled-up sleeves stands in front of a large cork wall covered with many pinned photographs of people, construction cranes and buildings, connected by red strings, and blank coloured index cards without writing, she holds a coffee mug and studies the connections, a desk with stacks of closed folders and several empty coffee cups, desk lamp light, medium shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "late at night a journalist pins a new photograph onto a cork wall full of photos, ties a red string from it to another photo, steps back with her coffee mug and nods slowly; static medium shot, desk lamp light",
+  "tags": [
+    "Arbeit",
+    "Medien",
+    "wochenlang recherchieren",
+    "im Internet recherchieren"
+  ]
+}

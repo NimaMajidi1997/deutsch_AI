@@ -1,0 +1,34 @@
+{
+  "lemma": "umgehen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "geht um",
+    "praeteritum": "ging um",
+    "perfekt": "ist umgegangen"
+  },
+  "separable": true,
+  "stress": "úmgehen",
+  "pair": "umgehen_untrennbar",
+  "rektion": "mit jdm./etw. (Dat.) umgehen (gut, vorsichtig, sparsam umgehen; mit Kritik, mit Geld, mit Kindern umgehen); etw. geht um (eine Grippe, ein Gerücht geht um)",
+  "meaning_en": "to handle, to deal with (someone/something); to go around (illness, rumour)",
+  "definition_de": "jdn. oder etw. auf eine bestimmte Art behandeln (Er kann gut mit Kindern umgehen.); auch: sich verbreiten (Im Büro geht eine Grippe um.). Untrennbar (umgéhen, hat umgangen) heißt es 'etwas vermeiden, um etwas herumgehen'.",
+  "example_de": "Mein Bruder geht so geduldig mit kleinen Kindern um, dass sie ihn sofort lieben.",
+  "example_en": "My brother is so patient with small children that they love him immediately.",
+  "visual_idea": "Collocation 'gut mit Kindern umgehen': a young man lies on the living room floor while three laughing toddlers climb on him, and he calmly builds a block tower with one of them. His relaxed patience amid the chaos shows 'how he deals with them'. Rejected: 'mit Geld umgehen' (piggy bank, reads as 'sparen') and 'vorsichtig mit Porzellan umgehen' (reads as 'tragen').",
+  "contrast_with": [
+    "umgéhen (vermeiden)",
+    "behandeln",
+    "zurechtkommen"
+  ],
+  "image_prompt": "a bright living room, a young man lies relaxed on his back on the rug and smiles patiently while three laughing toddlers climb on him, one sits on his chest, one pulls his arm, and with his free hand he helps the third child stack big colourful wooden blocks into a tower, toys scattered on the floor, soft daylight, high angle medium shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a young man lies on a rug while three toddlers climb on him laughing; he calmly lifts one child into the air, sets it down gently and helps another put a block on top of a tower, and all of them laugh; static high angle shot",
+  "tags": [
+    "Familie",
+    "Kinder",
+    "mit jdm. umgehen",
+    "gut mit Kindern umgehen"
+  ]
+}

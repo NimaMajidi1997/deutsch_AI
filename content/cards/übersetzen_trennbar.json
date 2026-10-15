@@ -1,0 +1,34 @@
+{
+  "lemma": "übersetzen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "setzt über",
+    "praeteritum": "setzte über",
+    "perfekt": "ist / hat übergesetzt"
+  },
+  "separable": true,
+  "stress": "ǘbersetzen",
+  "pair": "übersetzen_untrennbar",
+  "rektion": "(mit der Fähre) ans andere Ufer übersetzen (ist übergesetzt); jdn. übersetzen (= ans andere Ufer bringen, hat übergesetzt)",
+  "meaning_en": "to cross over (a river, by ferry); to ferry someone across",
+  "definition_de": "mit einem Boot oder einer Fähre über einen Fluss oder See auf die andere Seite fahren (Wir sind mit der Fähre übergesetzt.); auch: jdn. ans andere Ufer bringen. Untrennbar (übersétzen, hat übersetzt) heißt es 'in eine andere Sprache übertragen'.",
+  "example_de": "Ohne Brücke in der Nähe setzten wir mit der kleinen Fähre ans andere Rheinufer über.",
+  "example_en": "With no bridge nearby, we crossed over to the other bank of the Rhine on the small ferry.",
+  "visual_idea": "Collocation 'mit der Fähre übersetzen': a small car ferry in the middle of the wide Rhine, both banks clearly visible, with cyclists and two cars on deck. Showing the crossing between two banks makes the 'über' (from one side to the other) visible. A Rhine ferry with vineyards and a castle is a typical German scene, since bridges there are far apart.",
+  "contrast_with": [
+    "übersétzen (in eine andere Sprache)",
+    "überqueren",
+    "hinüberfahren"
+  ],
+  "image_prompt": "a small flat car ferry in the middle of the wide river Rhine, crossing from one bank to the other, both river banks clearly visible, on deck two cars and a family of cyclists holding their bikes and looking at the far bank, steep green vineyards and a medieval castle on the hill of the far bank, small village with a jetty on the near bank, calm water with a soft wake, sunny afternoon, wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a small car ferry slowly crosses the wide Rhine from the near bank toward the far bank with vineyards and a castle, cyclists on deck looking ahead, a soft wake behind it; static wide shot from the riverbank",
+  "tags": [
+    "Reisen",
+    "Fluss",
+    "mit der Fähre übersetzen",
+    "ans andere Ufer"
+  ]
+}

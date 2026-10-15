@@ -1,0 +1,32 @@
+{
+  "lemma": "widerstreben",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "widerstrebt",
+    "praeteritum": "widerstrebte",
+    "perfekt": "hat widerstrebt"
+  },
+  "separable": false,
+  "rektion": "jdm. (Dat.) widerstreben; es widerstrebt jdm., etw. zu tun",
+  "meaning_en": "to go against (someone's nature), to be repugnant to",
+  "definition_de": "jemandem innerlich zuwider sein, sodass er etwas nicht tun möchte; Nomen: das Widerstreben (etw. nur mit Widerstreben tun)",
+  "example_de": "Es widerstrebte ihm, den lebenden Hummer einfach ins kochende Wasser zu werfen.",
+  "example_en": "It went against his grain to simply throw the live lobster into the boiling water.",
+  "user_example_de": "Dieser Gedanke widerstrebt mir sehr.",
+  "visual_idea": "Collocation 'es widerstrebt jdm., etw. zu tun': a man holds a live lobster at arm's length over a steaming pot, face turned away in a grimace. The inner resistance is visible in his body language, and the scene is memorable. The sentence shows the typical Dat. + zu-infinitive pattern.",
+  "contrast_with": [
+    "ablehnen",
+    "sich weigern",
+    "zögern"
+  ],
+  "image_prompt": "a man in his thirties in a home kitchen holding a live dark blue lobster at arm's length above a large pot of boiling, steaming water, his body leaning back and his face turned away in a pained grimace, the lobster's claws raised, a lemon and herbs on the counter, warm evening kitchen light",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in a home kitchen a man holds a live lobster at arm's length above a steaming pot, the lobster waves its claws, the man hesitates, leans back with a grimace, then slowly pulls the lobster back away from the pot; static medium shot",
+  "tags": [
+    "Gefühle",
+    "Essen",
+    "es widerstrebt mir"
+  ]
+}

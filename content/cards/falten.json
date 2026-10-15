@@ -1,0 +1,31 @@
+{
+  "lemma": "falten",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "faltet",
+    "praeteritum": "faltete",
+    "perfekt": "hat gefaltet"
+  },
+  "separable": false,
+  "rektion": "etw. (Akk.) falten",
+  "meaning_en": "to fold",
+  "definition_de": "etwas (Papier, Stoff) so umbiegen, dass Teile aufeinanderliegen; auch: die Hände falten",
+  "example_de": "Nachdem die Wäsche getrocknet war, faltete er die Handtücher und legte sie in den Schrank.",
+  "example_en": "After the laundry had dried, he folded the towels and put them in the wardrobe.",
+  "visual_idea": "Collocation 'Wäsche falten': messy basket (before) on one side, tall neat stack of folded towels (result) on the other, man folding one more in between. The result state makes the meaning obvious without relying on a hand motion.",
+  "contrast_with": [
+    "entfalten",
+    "zusammenlegen",
+    "knicken"
+  ],
+  "image_prompt": "a young man sitting at a wooden table in a bright living room, folding a white towel into a neat square, on the left a laundry basket full of crumpled clothes, on the right a tall stack of six neatly folded colorful towels and shirts with sharp straight edges",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a young man at a wooden table takes a crumpled white towel from a laundry basket, folds it in half and in half again into a neat square, and places it on top of a tall stack of folded towels; static camera, slow readable motion",
+  "tags": [
+    "Haushalt",
+    "Wäsche falten",
+    "Gegensatzpaar"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "lemma": "scheinen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "scheint",
+    "praeteritum": "schien",
+    "perfekt": "hat geschienen"
+  },
+  "separable": false,
+  "rektion": "die Sonne scheint (auf + Akk.); jd. scheint + Adj. / zu + Inf. (er scheint müde zu sein)",
+  "meaning_en": "to shine; to seem, to appear",
+  "definition_de": "1. Licht ausstrahlen (die Sonne, der Mond scheint); 2. den Eindruck machen, wirken (sie scheint glücklich zu sein, es scheint, dass ...)",
+  "example_de": "Nach tagelangem Regen scheint endlich wieder die Sonne, und die Leute im Biergarten scheinen glücklich.",
+  "example_en": "After days of rain the sun is finally shining again, and the people in the beer garden seem happy.",
+  "visual_idea": "Collocation 'die Sonne scheint' + 'glücklich scheinen': one sunny scene carries both everyday meanings. Sunbeams breaking through the last clouds over a wet beer garden show 'shine'; people with closed eyes and smiling faces turned to the sun show 'seem happy'. Beat a tired commuter yawning in the S-Bahn ('er scheint müde zu sein' reads as gähnen) and a full moon over a lake (only the literal meaning, less everyday).",
+  "contrast_with": [
+    "leuchten",
+    "strahlen",
+    "wirken",
+    "aussehen"
+  ],
+  "image_prompt": "warm sunbeams breaking through the last dark rain clouds over a German beer garden under chestnut trees, wet wooden tables and benches glistening, shiny puddles on the gravel reflecting the bright sun, five people sitting at the tables with closed eyes and big relaxed smiles, faces turned up toward the sun, one woman stretching her arms wide, golden afternoon light, wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in a wet German beer garden under chestnut trees, the dark clouds slowly drift apart and bright sunbeams spread across the glistening tables, the people sitting there close their eyes, smile and turn their faces up to the sun; static camera, puddles sparkling",
+  "tags": [
+    "Wetter",
+    "Wahrnehmung",
+    "die Sonne scheint",
+    "glücklich scheinen",
+    "scheinen zu + Inf."
+  ]
+}

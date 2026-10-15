@@ -1,0 +1,32 @@
+{
+  "lemma": "ausprobieren",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "probiert aus",
+    "praeteritum": "probierte aus",
+    "perfekt": "hat ausprobiert"
+  },
+  "separable": true,
+  "rektion": "etw. (Akk.) ausprobieren (ein neues Rezept, eine Sportart, ein Gerät ausprobieren)",
+  "meaning_en": "to try out (something new)",
+  "definition_de": "etwas Neues zum ersten Mal machen oder benutzen, um zu sehen, ob es funktioniert oder gefällt (ein neues Restaurant ausprobieren). Anders: anprobieren (Kleidung), probieren (Essen).",
+  "example_de": "Im Urlaub haben wir zum ersten Mal Stand-up-Paddling ausprobiert und sind ständig ins Wasser gefallen.",
+  "example_en": "On holiday we tried stand-up paddling for the first time and kept falling into the water.",
+  "visual_idea": "Collocation 'eine neue Sportart ausprobieren': on a lake a man wobbles on a paddle board with bent knees and arms flung out, while his partner, already fallen in, laughs in the water next to her board. Beginner wobbling makes 'trying for the first time' obvious and funny. Big body poses are reliable; the fall itself is not drawn mid-air. Rejected: trying a new recipe (reads as 'kochen') and trying on clothes (that is 'anprobieren').",
+  "contrast_with": [
+    "anprobieren",
+    "probieren",
+    "versuchen"
+  ],
+  "image_prompt": "a calm turquoise lake in the Alps in summer, a man in swim shorts wobbles on a stand-up paddle board with bent knees, arms flung out wide and the paddle in one hand, a surprised face, beside him his partner has already fallen in and laughs in the water, holding on to her own empty paddle board, splashes around her, mountains behind, sunny, medium wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "on a lake a man wobbles on a paddle board, waving his arms to keep his balance, then loses it and falls into the water with a big splash next to his laughing partner; both come up laughing; static medium wide shot",
+  "tags": [
+    "Freizeit",
+    "Sport",
+    "etw. ausprobieren",
+    "zum ersten Mal"
+  ]
+}

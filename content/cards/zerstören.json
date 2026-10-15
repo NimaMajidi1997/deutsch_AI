@@ -1,0 +1,33 @@
+{
+  "lemma": "zerstören",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "zerstört",
+    "praeteritum": "zerstörte",
+    "perfekt": "hat zerstört"
+  },
+  "separable": false,
+  "rektion": "etw. (Akk.) zerstören",
+  "meaning_en": "to destroy",
+  "definition_de": "etwas so kaputt machen, dass es nicht mehr existiert oder nicht mehr zu gebrauchen ist (ein Sturm zerstört Häuser; übertragen: Vertrauen, Hoffnungen zerstören)",
+  "example_de": "Eine große Welle hat die Sandburg zerstört, die die Kinder den ganzen Nachmittag gebaut hatten.",
+  "example_en": "A big wave destroyed the sandcastle that the children had been building all afternoon.",
+  "visual_idea": "Collocation 'eine Welle / ein Sturm zerstört etw.': two children in shock in front of the ruins of their sandcastle, the seawater still flowing back. The image shows the result (only a heap of wet sand and a broken tower stump left), because a wave mid-crash gets drawn with the castle still intact. The video shows the wave destroying the intact castle (start frame).",
+  "contrast_with": [
+    "kaputt machen",
+    "beschädigen",
+    "bauen"
+  ],
+  "image_prompt": "the ruins of a sandcastle on a North Sea beach right after a wave has washed over it, only a low shapeless heap of wet slumped sand left, with crumbled wall pieces and the broken stump of a single tower, foamy seawater flowing back to the sea around it, two children kneeling in front of the ruins with shocked faces and their hands on their heads, a red plastic bucket and spade beside them, cloudy sky, low angle",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "a big detailed sandcastle with towers and walls standing intact on a North Sea beach near the waterline, two proud children kneeling in front of it with a red plastic bucket and spade, a large wave building up in the background, cloudy sky, low angle",
+  "video_prompt": "two children kneel proudly in front of a big sandcastle on a beach; a large wave rolls in, crashes through the castle and washes the towers away into wet sand and foam, and the children jump back with shocked faces; static low-angle camera",
+  "tags": [
+    "Natur",
+    "Strand",
+    "eine Welle zerstört etw.",
+    "ein Sturm zerstört etw."
+  ]
+}

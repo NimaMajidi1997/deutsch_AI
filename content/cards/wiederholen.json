@@ -1,0 +1,33 @@
+{
+  "lemma": "wiederholen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "wiederholt",
+    "praeteritum": "wiederholte",
+    "perfekt": "hat wiederholt"
+  },
+  "separable": false,
+  "stress": "wiederhólen",
+  "rektion": "etw. (Akk.) wiederholen; sich wiederholen",
+  "meaning_en": "to repeat, to say again",
+  "definition_de": "etwas noch einmal sagen oder machen (eine Frage wiederholen, Vokabeln wiederholen, eine Klasse wiederholen). Trennbar (wíederholen, holt wieder, hat wiedergeholt) heißt es selten 'etwas zurückholen'.",
+  "example_de": "Im lauten Café hielt er die Hand ans Ohr, und die Kellnerin wiederholte ihre Frage.",
+  "example_en": "In the noisy café he cupped his hand to his ear, and the waitress repeated her question.",
+  "visual_idea": "Most frequent learner use 'Können Sie das wiederholen?': a guest cupping his ear in a busy café is the universal 'say that again?' gesture, and the waitress leaning in to speak again shows the repetition. Klasse wiederholen and Vokabeln wiederholen were weaker (narrower use / flashcards attract text).",
+  "contrast_with": [
+    "wíederholen (zurückholen)",
+    "nachsprechen",
+    "noch einmal sagen"
+  ],
+  "image_prompt": "a crowded lively Viennese-style café, a man at a small marble table cups one hand behind his ear and leans forward with a puzzled, apologetic face, a friendly waitress with a small round tray bends toward him and speaks again slowly and clearly, other guests laughing and talking at tables behind them, medium shot from the side, both faces clearly visible",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in a busy café a man at a small table cups his hand behind his ear and leans forward with a puzzled face; the waitress bends down closer and repeats her question slowly, and he nods and smiles as he finally understands; static medium shot",
+  "tags": [
+    "Alltag",
+    "Kommunikation",
+    "eine Frage wiederholen",
+    "Können Sie das wiederholen?"
+  ]
+}

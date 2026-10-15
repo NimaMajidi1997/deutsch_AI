@@ -1,0 +1,31 @@
+{
+  "lemma": "durchblättern",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "blättert durch",
+    "praeteritum": "blätterte durch",
+    "perfekt": "hat durchgeblättert"
+  },
+  "separable": true,
+  "rektion": "etw. (Akk.) durchblättern",
+  "meaning_en": "to leaf through, to flip through",
+  "definition_de": "die Seiten eines Hefts oder Buchs schnell umwenden und nur kurz hinschauen, ohne genau zu lesen (auch untrennbar möglich: er durchblättert, hat durchblättert)",
+  "example_de": "Im Wartezimmer blätterte er gelangweilt eine alte Zeitschrift durch, ohne wirklich etwas zu lesen.",
+  "example_en": "In the waiting room he flipped through an old magazine out of boredom, without really reading anything.",
+  "visual_idea": "Collocation 'eine Zeitschrift durchblättern' in the classic German Wartezimmer: a bored man turning to the next page while his eyes already drift away shows quick, superficial looking (not reading); 'ohne wirklich etwas zu lesen' separates it from lesen. Pages show only photos to avoid fake text. Needs video (the flipping motion is the meaning).",
+  "contrast_with": [
+    "lesen",
+    "blättern",
+    "nachschlagen"
+  ],
+  "image_prompt": "a bored man in his forties sitting on a plastic chair in a bright, tidy doctor's waiting room, holding an open magazine loosely in both hands, his thumb lifting the corner of the next page to turn it, his eyes drifting away from the page toward the window, the magazine pages showing only large colorful photographs, a small side table with a neat pile of magazines beside him, calm natural daylight",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_prompt": "a bored man on a chair in a doctor's waiting room turns the pages of a magazine quickly one after another, glancing at each page only for a moment without stopping, then sighs, closes the magazine and puts it on the side table; static medium shot, steady camera, natural motion",
+  "tags": [
+    "Alltag",
+    "Medien",
+    "eine Zeitschrift durchblättern"
+  ]
+}

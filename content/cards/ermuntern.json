@@ -1,0 +1,32 @@
+{
+  "lemma": "ermuntern",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "ermuntert",
+    "praeteritum": "ermunterte",
+    "perfekt": "hat ermuntert"
+  },
+  "separable": false,
+  "rektion": "jdn. (Akk.) zu etw. ermuntern / jdn. ermuntern, etw. zu tun",
+  "meaning_en": "to encourage, to urge on (someone who hesitates)",
+  "definition_de": "jdm. Mut machen, etwas zu tun; auch: munter/wach machen (Der Kaffee hat mich ermuntert.)",
+  "example_de": "Die Sportlehrerin ermuntert die Kinder beim Sprung vom Kasten.",
+  "example_en": "The PE teacher encourages the children as they jump off the vaulting box.",
+  "visual_idea": "User's scene (gym class, Sprung vom Kasten) wins: a hesitant child on a tall vaulting box and a smiling teacher with an open, inviting hand show 'giving courage to someone who hesitates' in one frame, with all sentence nouns (Sportlehrerin, Kinder, Kasten) visible. Video optional (hesitation, encouragement, jump).",
+  "contrast_with": [
+    "ermutigen",
+    "anfeuern",
+    "ermahnen"
+  ],
+  "image_prompt": "a hesitant nine-year-old girl in a t-shirt and shorts standing on top of a tall wooden vaulting box in a bright school gym, knees slightly bent, looking down nervously at a thick blue landing mat; beside the mat a smiling female PE teacher in a tracksuit holds one hand open toward her and gives a thumbs-up with the other; four children sit on a low bench behind, watching; plain painted walls, wooden wall bars, wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in a bright school gym a hesitant girl stands on top of a tall wooden vaulting box, the smiling PE teacher beside the blue mat nods and waves her encouragingly forward, the girl takes a breath, smiles and jumps down onto the mat while the children on the bench clap; static wide camera, slow readable motion",
+  "tags": [
+    "Schule",
+    "Sport",
+    "Gefühle",
+    "jdn. zu etw. ermuntern"
+  ]
+}

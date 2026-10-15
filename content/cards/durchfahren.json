@@ -1,0 +1,33 @@
+{
+  "lemma": "durchfahren",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "fährt durch",
+    "praeteritum": "fuhr durch",
+    "perfekt": "ist durchgefahren"
+  },
+  "separable": true,
+  "stress": "dúrchfahren",
+  "rektion": "(irgendwo) durchfahren (ohne Halt: der Zug fährt durch; bis Berlin durchfahren; die Nacht durchfahren); durch etw. durchfahren",
+  "meaning_en": "to go through without stopping, to drive straight through",
+  "definition_de": "ohne anzuhalten weiterfahren (Der Zug fährt hier durch. Wir sind die ganze Nacht durchgefahren.); auch: durch etwas hindurchfahren (durch einen Tunnel). Untrennbar (durchfáhren, hat durchfahren) ist es eher schriftsprachlich: eine Gegend durchfahren; ein Schreck durchfuhr ihn.",
+  "example_de": "An unserem kleinen Bahnhof hält der ICE nicht, sondern fährt mit hoher Geschwindigkeit durch.",
+  "example_en": "The ICE doesn't stop at our small station but goes straight through at high speed.",
+  "visual_idea": "Collocation 'der Zug fährt durch' (known from the platform announcement 'Vorsicht an Gleis 2, der Zug fährt durch'): a white high-speed train rushes past a small rural platform with motion blur while the waiting people step back from the edge, their hair and coats blowing. The blur and the waiting passengers show 'without stopping'. Rejected: 'die Nacht durchfahren' (a tired driver at dawn, hard to read as 'without a break') and 'bei Rot durchfahren' (usually 'über Rot fahren').",
+  "contrast_with": [
+    "halten",
+    "vorbeifahren",
+    "durchfáhren (schriftspr.: ein Schreck durchfuhr ihn)"
+  ],
+  "image_prompt": "a long white high-speed train with a red stripe rushing at full speed past the platform of a small rural German railway station without stopping, the train strongly blurred by motion, on the platform three waiting passengers step back from the edge, their hair and coats blown by the wind, one holds on to her hat, small brick station building, fields behind, overcast sky, side view",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "on the platform of a small rural station three passengers wait; a white high-speed train rushes past at full speed without slowing down, the wind blows their hair and coats and they step back; the last car disappears and the platform is quiet again; static side view",
+  "tags": [
+    "Verkehr",
+    "Bahn",
+    "der Zug fährt durch",
+    "ohne Halt"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "lemma": "schnappen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "schnappt",
+    "praeteritum": "schnappte",
+    "perfekt": "hat geschnappt"
+  },
+  "separable": false,
+  "rektion": "sich (Dat.) etw. schnappen / nach etw. schnappen / jdn. schnappen (ugs.: fangen)",
+  "meaning_en": "to grab, to snatch (quickly); to snap at; (coll.) to catch",
+  "definition_de": "etwas schnell und plötzlich packen oder mit dem Maul fangen; ugs.: sich etw. schnappen = sich etw. schnell nehmen; jdn. schnappen = jdn. festnehmen (Die Polizei hat den Dieb geschnappt.)",
+  "example_de": "Mit einem hohen Sprung schnappte sich der Hund den Ball mitten in der Luft.",
+  "example_en": "With a high jump, the dog snatched the ball in mid-air.",
+  "user_example_de": "Ich habe mir Stift, Papier und Kamera geschnappt.",
+  "visual_idea": "Collocation 'sich etw. schnappen / nach etw. schnappen': a dog catching a ball in mid-air with its jaws. The quick, sudden grab is visible in one frozen moment, and the sentence uses the same 'sich etw. schnappen' structure as everyday speech. Video optional (jump and catch).",
+  "contrast_with": [
+    "fangen",
+    "packen",
+    "greifen"
+  ],
+  "image_prompt": "a brown and white border collie leaping high in mid-air in a green park, its jaws snapping shut around a bright yellow tennis ball, all four paws off the ground, ears flying, the dog sharply in focus in the center of the frame, summer afternoon",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "a brown and white border collie standing on the grass of a green park, crouched and ready to jump, looking up at a bright yellow tennis ball flying toward it high in the air, summer afternoon, wide shot",
+  "video_prompt": "a border collie in a park watches a yellow tennis ball flying toward it, pushes off, leaps high into the air and snaps the ball with its jaws in mid-air, then lands on the grass with the ball in its mouth; static wide camera, slow motion",
+  "tags": [
+    "Tiere",
+    "Alltag",
+    "sich etw. schnappen",
+    "nach etw. schnappen"
+  ]
+}

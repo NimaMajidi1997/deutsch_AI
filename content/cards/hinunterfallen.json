@@ -1,0 +1,33 @@
+{
+  "lemma": "hinunterfallen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "fällt hinunter",
+    "praeteritum": "fiel hinunter",
+    "perfekt": "ist hinuntergefallen"
+  },
+  "separable": true,
+  "rektion": "etw. (Akk.) hinunterfallen (die Treppe hinunterfallen); von etw. hinunterfallen",
+  "meaning_en": "to fall down",
+  "definition_de": "von oben nach unten fallen (ugs.: runterfallen); mit Akkusativ für den Weg: die Treppe hinunterfallen",
+  "example_de": "Der schwere Koffer ist die ganze Treppe hinuntergefallen und unten aufgesprungen.",
+  "example_en": "The heavy suitcase fell all the way down the stairs and burst open at the bottom.",
+  "user_example_de": "Mein Großvater ist die Treppe hinuntergefallen.",
+  "visual_idea": "Same pattern as the user's sentence ('die Treppe hinunterfallen', Akk. for the path): a suitcase lies burst open at the bottom of an Altbau staircase while its owner stares down from the top. The result state is reliable to draw; the fall itself is in the video.",
+  "contrast_with": [
+    "hinfallen",
+    "herunterfallen",
+    "umfallen"
+  ],
+  "image_prompt": "an old wooden staircase in a German Altbau stairwell seen from below, a large suitcase lying burst open on the bottom steps with clothes, shoes and a towel scattered across the last stairs and the floor, a young man standing at the top of the stairs with both hands on his head in shock, warm light from a tall window",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "an old wooden staircase in a German Altbau stairwell seen from below, a young man standing at the top of the stairs holding a large closed suitcase by its handle, the suitcase starting to slip out of his hand, the stairs below empty and clean, warm light from a tall window",
+  "video_prompt": "at the top of an old wooden staircase a large suitcase slips out of a young man's hand, tumbles down the stairs step by step and bursts open at the bottom, clothes spilling out, while the man puts his hands on his head in shock; static camera from the bottom of the stairs",
+  "tags": [
+    "Alltag",
+    "Wohnen",
+    "die Treppe hinunterfallen"
+  ]
+}

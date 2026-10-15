@@ -1,0 +1,34 @@
+{
+  "lemma": "durchschauen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "durchschaut",
+    "praeteritum": "durchschaute",
+    "perfekt": "hat durchschaut"
+  },
+  "separable": false,
+  "stress": "durchscháuen",
+  "pair": "durchschauen_trennbar",
+  "rektion": "jdn./etw. (Akk.) durchschauen (einen Trick, eine Lüge, einen Plan, jdn. durchschauen)",
+  "meaning_en": "to see through (someone, a trick, a lie)",
+  "definition_de": "erkennen, was jemand wirklich vorhat oder dass etwas nicht stimmt (Ich habe dich durchschaut!). Trennbar (dúrchschauen, hat durchgeschaut) heißt es 'etwas Stück für Stück ansehen und prüfen'.",
+  "example_de": "Die Mutter durchschaut die Ausrede ihres Sohnes sofort, denn er hat noch Schokolade im Gesicht.",
+  "example_en": "The mother sees through her son's excuse immediately, because he still has chocolate on his face.",
+  "visual_idea": "Collocation 'eine Ausrede / jdn. durchschauen': a boy with an innocent face and chocolate smeared around his mouth, an empty chocolate wrapper behind his back, and his mother with crossed arms and a knowing smile. The visible proof makes 'she sees through it' instantly clear, and it is funny. Rejected: a poker bluff (cards attract symbols and text) and a phone scam (a screen with text).",
+  "contrast_with": [
+    "dúrchschauen (durchsehen, prüfen)",
+    "erkennen",
+    "ertappen"
+  ],
+  "image_prompt": "a bright German family kitchen, a six-year-old boy stands with a wide innocent smile and big eyes, his mouth and cheeks clearly smeared with brown chocolate, both hands hidden behind his back holding a crumpled plain brown wrapper that the viewer can see, his mother stands in front of him with crossed arms, one eyebrow raised and a knowing smile, medium shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a boy with chocolate on his face smiles innocently at his mother and shakes his head; she raises one eyebrow, points at his chocolate-smeared mouth and smiles knowingly, and he hides his face in his hands, caught; static medium shot",
+  "tags": [
+    "Familie",
+    "Alltag",
+    "jdn. durchschauen",
+    "eine Ausrede durchschauen"
+  ]
+}

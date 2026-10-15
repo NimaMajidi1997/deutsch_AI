@@ -1,0 +1,32 @@
+{
+  "lemma": "widersprechen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "widerspricht",
+    "praeteritum": "widersprach",
+    "perfekt": "hat widersprochen"
+  },
+  "separable": false,
+  "rektion": "jdm./einer Sache (Dat.) widersprechen; sich (Dat.) widersprechen (= Widersprüchliches sagen)",
+  "meaning_en": "to contradict, to disagree with",
+  "definition_de": "sagen, dass man anderer Meinung ist oder dass etwas nicht stimmt (dem Chef widersprechen); sich widersprechen = zwei Dinge sagen, die nicht zusammenpassen. Nur untrennbar.",
+  "example_de": "Beim Abendessen widerspricht Lena ihrem Opa, als er behauptet, früher sei alles besser gewesen.",
+  "example_en": "At dinner Lena contradicts her grandpa when he claims that everything used to be better.",
+  "visual_idea": "Collocation 'jdm. widersprechen' at a family dinner: the grandfather holds forth with a raised fork, and his teenage granddaughter shakes her head and raises her index finger with a confident smile, while the parents watch amused. The head shake plus raised finger read as 'no, that's not right'. Rejected: contradicting the boss in a meeting (too close to the unterstellen card) and a TV debate (studio graphics attract text).",
+  "contrast_with": [
+    "zustimmen",
+    "widerspiegeln",
+    "sich streiten"
+  ],
+  "image_prompt": "a warm German family dinner table in the evening, an elderly grandfather at the head of the table talks with conviction and a raised fork, opposite him his teenage granddaughter shakes her head with a confident smile and raises her index finger to disagree, her parents between them watch amused, plates with potatoes and salad, warm lamp light, medium wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "at a family dinner a grandfather talks with a raised fork; his teenage granddaughter shakes her head, raises her index finger and answers him calmly, and the parents exchange an amused look; static medium wide shot",
+  "tags": [
+    "Familie",
+    "Kommunikation",
+    "jdm. widersprechen",
+    "Meinung"
+  ]
+}

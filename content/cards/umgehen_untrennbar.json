@@ -1,0 +1,36 @@
+{
+  "lemma": "umgehen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "umgeht",
+    "praeteritum": "umging",
+    "perfekt": "hat umgangen"
+  },
+  "separable": false,
+  "stress": "umgéhen",
+  "pair": "umgehen_trennbar",
+  "rektion": "etw. (Akk.) umgehen (ein Hindernis, ein Problem, eine Frage, ein Gesetz, ein Verbot umgehen)",
+  "meaning_en": "to avoid, to bypass, to get around (an obstacle, a rule)",
+  "definition_de": "um etwas herumgehen, um es zu vermeiden; übertragen: einer Sache ausweichen oder eine Regel geschickt nicht befolgen (eine Frage, ein Verbot umgehen). Trennbar (úmgehen, ist umgegangen) heißt es 'mit jdm./etw. umgehen' (behandeln). Achtung Perfekt: hat umgangen (nicht 'umgegangen').",
+  "example_de": "Weil ein umgestürzter Baum den Weg versperrte, umgingen die Wanderer ihn durch den Wald.",
+  "example_en": "Because a fallen tree was blocking the path, the hikers went around it through the forest.",
+  "user_example_de": "Ich habe in meinem Leben schon viele Probleme umgangen.",
+  "visual_idea": "Literal collocation 'ein Hindernis umgehen': a huge fallen tree lies across a forest path, and two hikers walk around its root end on a narrow trodden detour through the ferns. The detour arc makes 'around, avoiding it' visible, and it is the on-foot twin of 'einen Stau umfahren'. The figurative 'ein Verbot umgehen' is common too and is mentioned in definition_de, but rules need signs (text).",
+  "contrast_with": [
+    "úmgehen (behandeln)",
+    "umfáhren",
+    "ausweichen",
+    "vermeiden"
+  ],
+  "image_prompt": "a German beech forest in autumn, a huge fallen tree trunk lies across the wide forest path and blocks it completely, two hikers with backpacks walk on a narrow trodden side trail that curves through the ferns around the big upturned root end of the tree, one hiker turns back and waves to the other, golden leaves, soft light, high angle wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "two hikers reach a huge fallen tree that blocks a forest path; they turn off the path, walk along a narrow side trail around the big upturned roots and step back onto the path behind the tree; slow high angle wide shot",
+  "tags": [
+    "Natur",
+    "Wandern",
+    "ein Hindernis umgehen",
+    "ein Problem umgehen"
+  ]
+}

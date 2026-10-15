@@ -1,0 +1,34 @@
+{
+  "lemma": "umfahren",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "umfährt",
+    "praeteritum": "umfuhr",
+    "perfekt": "hat umfahren"
+  },
+  "separable": false,
+  "stress": "umfáhren",
+  "pair": "umfahren_trennbar",
+  "rektion": "etw. (Akk.) umfahren (einen Stau, eine Baustelle, ein Hindernis umfahren)",
+  "meaning_en": "to drive around, to bypass",
+  "definition_de": "um etwas herumfahren, um es zu vermeiden (einen Stau, eine Baustelle, die Innenstadt umfahren). Trennbar (úmfahren, hat umgefahren) heißt es 'etwas mit dem Auto umstoßen'.",
+  "example_de": "Weil die Autobahn völlig verstopft war, umfuhren wir den Stau über kleine Landstraßen.",
+  "example_en": "Because the motorway was completely jammed, we bypassed the traffic jam on small country roads.",
+  "visual_idea": "Collocation 'einen Stau umfahren': a drone view of a long, stopped column of cars on the Autobahn, and one red car taking a narrow country road that curves in an arc through the fields around the jam. The arc makes the 'around' visible in one still frame. A traffic jam is the everyday case (navigation apps say 'Stau umfahren'), and an aerial view of a road is easy to draw.",
+  "contrast_with": [
+    "úmfahren (umstoßen)",
+    "ausweichen",
+    "einen Umweg fahren"
+  ],
+  "image_prompt": "high aerial drone view of a German Autobahn in summer, one direction completely jammed with a long dense column of stopped cars and trucks stretching to the horizon, beside it a narrow country road leaves the motorway and curves in a wide arc through green and yellow fields and past a small village around the jam, a single bright red car drives alone on this curving country road, clear sky, sharp detail",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "high aerial drone view: a long column of cars stands still on an Autobahn while a single red car leaves at an exit and drives smoothly along a narrow country road that curves around the jam through the fields; slow forward drone movement",
+  "tags": [
+    "Verkehr",
+    "Auto",
+    "einen Stau umfahren",
+    "eine Baustelle umfahren"
+  ]
+}

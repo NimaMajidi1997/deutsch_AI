@@ -1,0 +1,33 @@
+{
+  "lemma": "überlassen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "überlässt",
+    "praeteritum": "überließ",
+    "perfekt": "hat überlassen"
+  },
+  "separable": false,
+  "rektion": "jdm./etw. (Dat.) etw. (Akk.) überlassen (die Entscheidung dir überlassen, etw. dem Zufall überlassen)",
+  "meaning_en": "to leave (a decision/thing) to someone or something; to hand over",
+  "definition_de": "jemand anderen (oder etwas anderes) entscheiden oder etwas haben lassen; auch: jdm. etw. zur Nutzung geben (Er überließ uns seine Wohnung.)",
+  "example_de": "Weil er sich nicht entscheiden konnte, überließ er die Wahl des Weges dem Zufall.",
+  "example_en": "Because he could not decide, he left the choice of path to chance.",
+  "user_example_de": "Soll ich versuchen, meine Entscheidungen meinem Bauchgefühl zu überlassen?",
+  "visual_idea": "Collocation 'etw. dem Zufall überlassen': a hiker at a fork in a forest path flips a coin instead of choosing himself. Giving the decision away is visible, and it has the same structure as 'die Entscheidung dem Bauchgefühl überlassen'.",
+  "contrast_with": [
+    "entscheiden",
+    "lassen",
+    "verlassen"
+  ],
+  "image_prompt": "a young hiker with a backpack standing at a fork where a forest path splits into two clearly different paths, one sunny path to the left and one dark misty path to the right, he has just flipped a silver coin with his thumb and the coin is spinning high in the air above his hand, he watches it with a relaxed shrug, wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a hiker stands at a fork in a forest path, looks left and right, shrugs, flips a silver coin high into the air with his thumb, catches it on the back of his hand, looks at it and walks onto the left path; static wide camera",
+  "tags": [
+    "Entscheidungen",
+    "Alltag",
+    "etw. dem Zufall überlassen",
+    "jdm. die Entscheidung überlassen"
+  ]
+}

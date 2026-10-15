@@ -1,0 +1,32 @@
+{
+  "lemma": "verlassen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "verlässt",
+    "praeteritum": "verließ",
+    "perfekt": "hat verlassen"
+  },
+  "separable": false,
+  "rektion": "etw./jdn. (Akk.) verlassen; sich auf jdn./etw. verlassen (= vertrauen)",
+  "meaning_en": "to leave (a place, a person); sich verlassen auf: to rely on",
+  "definition_de": "von einem Ort weggehen oder sich von jemandem trennen (das Haus verlassen, seinen Partner verlassen); reflexiv: sich auf jdn. verlassen = jdm. vertrauen",
+  "example_de": "Noch vor Sonnenaufgang verließen wir mit unseren Koffern das Haus.",
+  "example_en": "We left the house with our suitcases before sunrise.",
+  "user_example_de": "… verließen das Haus.",
+  "visual_idea": "User's collocation 'das Haus verlassen': a family steps out of their front door at dawn with suitcases, the father pulling the door shut behind them. Suitcases and the closing door show they are leaving the place, not just going out. Video optional (stepping out, door closing).",
+  "contrast_with": [
+    "hinterlassen",
+    "weggehen",
+    "ausgehen"
+  ],
+  "image_prompt": "a family of four stepping out of the front door of a German terraced house at dawn, each pulling a suitcase, the father pulling the door shut behind them, warm light still glowing in the hallway, the two children yawning, deep blue early morning sky, wet cobblestone path leading to the street",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "at dawn a family of four with suitcases steps out of the front door of a terraced house, the father pulls the door shut behind them, and they walk down the path toward the street; static wide camera",
+  "tags": [
+    "Familie",
+    "Reisen",
+    "das Haus verlassen"
+  ]
+}

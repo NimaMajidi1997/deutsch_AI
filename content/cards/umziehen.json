@@ -1,0 +1,34 @@
+{
+  "lemma": "umziehen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "zieht um",
+    "praeteritum": "zog um",
+    "perfekt": "ist umgezogen"
+  },
+  "separable": true,
+  "stress": "úmziehen",
+  "rektion": "(nach/in + Akk.) umziehen (nach Leipzig, in eine größere Wohnung umziehen); sich umziehen (= andere Kleidung anziehen, hat sich umgezogen)",
+  "meaning_en": "to move (house); sich umziehen: to change (clothes)",
+  "definition_de": "mit seinen Möbeln und Sachen in eine andere Wohnung oder Stadt ziehen (der Umzug); sich umziehen = andere Kleidung anziehen (Ich ziehe mich schnell um.). Untrennbar (umzíehen) ist es selten und literarisch (Wolken umziehen den Himmel).",
+  "example_de": "Am Samstag ziehen wir um, und fünf Freunde helfen uns, das schwere Sofa zu tragen.",
+  "example_en": "We're moving on Saturday, and five friends are helping us carry the heavy sofa.",
+  "visual_idea": "Collocation 'umziehen' with the typical German moving day (friends help, no moving company): a white rented van with its back open in front of an Altbau building, stacked boxes inside, and two friends carrying a heavy sofa down the front steps while others carry boxes. Van plus boxes plus sofa show 'moving house' at once. Rejected: 'sich umziehen' (changing clothes, a weaker scene) and an empty apartment (reads as 'ausziehen'). Pairs with the einleben card.",
+  "contrast_with": [
+    "einziehen",
+    "ausziehen",
+    "sich umziehen",
+    "sich einleben"
+  ],
+  "image_prompt": "moving day in front of a German Altbau apartment building, a white rented van with its back doors wide open, inside stacked plain brown cardboard boxes without any writing and a lamp, two young men carry a heavy grey sofa down the front steps, straining but laughing, behind them three more friends each carry a box, a pizza box on a stack, sunny Saturday morning, wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in front of an Altbau building two friends carry a heavy sofa down the steps and lift it into an open white van, while three others carry boxes past them and stack them inside; static wide shot, sunny morning",
+  "tags": [
+    "Wohnen",
+    "Umzug",
+    "umziehen",
+    "beim Umzug helfen"
+  ]
+}

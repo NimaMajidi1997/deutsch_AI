@@ -1,0 +1,32 @@
+{
+  "lemma": "bereuen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "bereut",
+    "praeteritum": "bereute",
+    "perfekt": "hat bereut"
+  },
+  "separable": false,
+  "rektion": "etw. (Akk.) bereuen; bereuen, etw. getan zu haben",
+  "meaning_en": "to regret",
+  "definition_de": "sich wünschen, etwas nicht getan zu haben, weil es falsch oder schlecht war",
+  "example_de": "Kaum war die Familienpizza leer, bereute er schon, sie ganz allein gegessen zu haben.",
+  "example_en": "The moment the family-size pizza was gone, he already regretted eating it all by himself.",
+  "user_example_de": "Ich habe Angst, dass ich später alles bereue.",
+  "visual_idea": "Collocation 'bereuen, etw. getan zu haben': a man slumped on the sofa holding his overfull stomach next to an empty family-size pizza box with only crumbs left. The deed is done and can't be undone (empty box), his face and pose show the regret, and the humor makes it memorable. A still image is enough: eating a whole pizza doesn't fit a 5-second video.",
+  "contrast_with": [
+    "bedauern",
+    "sich ärgern",
+    "vermissen"
+  ],
+  "image_prompt": "a man in his thirties slumped back on a sofa in a cozy living room, both hands on his overfull round stomach, the top button of his jeans open, eyes squeezed shut and mouth pulled into a pained, regretful grimace, on the coffee table in front of him a huge open family-size pizza box, completely empty except for a few crumbs and one crust, evening lamp light",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a man slumped on a sofa next to an empty family-size pizza box groans, slowly rubs his overfull stomach, looks at the empty box and lets his head fall back against the sofa in regret; static medium shot",
+  "tags": [
+    "Gefühle",
+    "Essen",
+    "etw. bereuen"
+  ]
+}

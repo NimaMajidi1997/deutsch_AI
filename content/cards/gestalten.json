@@ -1,0 +1,31 @@
+{
+  "lemma": "gestalten",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "gestaltet",
+    "praeteritum": "gestaltete",
+    "perfekt": "hat gestaltet"
+  },
+  "separable": false,
+  "rektion": "etw. (Akk.) gestalten (einen Raum, den Garten, die Freizeit gestalten)",
+  "meaning_en": "to design, to shape, to arrange (creatively)",
+  "definition_de": "etwas nach eigenen Ideen formen, einrichten oder planen (einen Raum, eine Webseite, die Zukunft gestalten)",
+  "example_de": "Wir haben unser Traumhaus gestaltet.",
+  "example_en": "We designed our dream house.",
+  "visual_idea": "User's scene wins (tie with 'den Garten gestalten'; ties go to the user): a couple in their new living room holding color swatches; one half of the room is still bare concrete, the other half is finished with their chosen colors and furniture. The before/after split shows that they shaped the space by their own ideas.",
+  "contrast_with": [
+    "einrichten",
+    "streichen",
+    "bauen"
+  ],
+  "image_prompt": "a young couple standing in the middle of the large living room of their new house, holding a fan of color swatches and fabric samples, the left half of the room is still bare grey concrete with a ladder, the right half is already finished with warm terracotta walls, a green sofa, plants and wooden shelves, both smiling and pointing at the finished half, wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background",
+  "needs_video": false,
+  "video_prompt": "a young couple in their new living room holds color swatches against a bare concrete wall, nods to each other, and the camera slowly pans to the right toward the finished half of the room with warm terracotta walls, a green sofa and plants",
+  "tags": [
+    "Wohnen",
+    "Kreativität",
+    "ein Haus / einen Raum gestalten"
+  ]
+}

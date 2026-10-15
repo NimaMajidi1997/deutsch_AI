@@ -1,0 +1,34 @@
+{
+  "lemma": "unterstellen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "unterstellt",
+    "praeteritum": "unterstellte",
+    "perfekt": "hat unterstellt"
+  },
+  "separable": false,
+  "stress": "unterstéllen",
+  "pair": "unterstellen_trennbar",
+  "rektion": "jdm. etw. (Akk.) unterstellen (jdm. Absicht, Faulheit, eine Lüge unterstellen); jdm. unterstellt sein (= jdn. als Vorgesetzten haben)",
+  "meaning_en": "to insinuate, to accuse someone (without proof); to be subordinate to someone (unterstellt sein)",
+  "definition_de": "behaupten, dass jemand etwas Schlechtes getan oder gemeint hat, ohne es beweisen zu können (Unterstell mir nichts!); auch: jdm. unterstellt sein = jdn. als Chef haben. Trennbar (únterstellen, hat untergestellt) heißt es 'sich bei Regen unter ein Dach stellen'.",
+  "example_de": "In der Besprechung unterstellt mir mein Kollege plötzlich, dass ich seine Idee gestohlen habe.",
+  "example_en": "In the meeting my colleague suddenly accuses me of having stolen his idea.",
+  "visual_idea": "Collocation 'jdm. etw. unterstellen': in a meeting room, one man points an accusing finger across the table at a woman who raises her open palms in shocked innocence, while the other colleagues look at him doubtfully. The doubtful faces add the key nuance of 'unterstellen' (the accusation is unfounded), which separates it from 'vorwerfen'. The wall is blank, so there is no fake text.",
+  "contrast_with": [
+    "únterstellen (Schutz suchen)",
+    "vorwerfen",
+    "beschuldigen"
+  ],
+  "image_prompt": "a modern German office meeting room around a long table, a man in a shirt half rises from his chair and points an accusing finger across the table at a young woman, she leans back with wide eyes and raises both open palms in shocked innocence, three other colleagues around the table look at the man with raised eyebrows and doubtful faces, laptops and coffee cups, a completely blank white wall behind them, medium wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in a meeting room a man suddenly rises halfway and points an accusing finger at a young woman across the table; she leans back and raises both palms in shocked innocence, and the other colleagues turn their heads and look at him doubtfully; static medium wide shot",
+  "tags": [
+    "Arbeit",
+    "Konflikt",
+    "jdm. etw. unterstellen",
+    "Kommunikation"
+  ]
+}

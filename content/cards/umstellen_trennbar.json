@@ -1,0 +1,34 @@
+{
+  "lemma": "umstellen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "stellt um",
+    "praeteritum": "stellte um",
+    "perfekt": "hat umgestellt"
+  },
+  "separable": true,
+  "stress": "úmstellen",
+  "pair": "umstellen_untrennbar",
+  "rektion": "etw. (Akk.) umstellen; auf + Akk. (auf Winterzeit, auf Ökostrom umstellen); sich umstellen",
+  "meaning_en": "to rearrange, to move (furniture); to switch over",
+  "definition_de": "etwas an einen anderen Platz stellen (Möbel umstellen); auch: etwas ändern / auf etwas Neues wechseln (die Uhr umstellen, die Ernährung umstellen, sich auf etwas umstellen)",
+  "example_de": "Am Wochenende haben wir das Wohnzimmer umgestellt, und jetzt steht das Sofa am Fenster.",
+  "example_en": "At the weekend we rearranged the living room, and now the sofa is by the window.",
+  "visual_idea": "Collocation 'Möbel / das Zimmer umstellen': a couple pushing the sofa to the window, with dents in the carpet where it stood before, shows the change of place in one frame. 'Die Uhr umstellen' is a small hand manipulation, 'die Ernährung umstellen' too abstract. Video moves the sofa from the back wall to the window. Opposite umstéllen: police surrounding a house.",
+  "contrast_with": [
+    "umstéllen (umzingeln)",
+    "umräumen",
+    "verschieben"
+  ],
+  "image_prompt": "wide view of a bright Altbau living room with a tall window on the left and a bare wall on the right, a young couple pushes a big grey sofa across the light carpet until it stands under the window, on the right by the bare wall four deep dents in the carpet and a lighter rectangle show where the sofa stood before, a floor lamp and a plant beside it",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "wide view of a bright Altbau living room with a tall window on the left and a bare wall on the right, a big grey sofa stands against the right wall on a light carpet, the space under the window is empty, a young couple stands in the middle of the room looking at the sofa with hands on hips, a floor lamp and a plant",
+  "video_prompt": "wide view of a bright living room: a young couple grabs a big grey sofa standing against the right wall and pushes it slowly across the carpet until it stands under the tall window on the left, then they step back and smile; static wide camera",
+  "tags": [
+    "Wohnen",
+    "Möbel umstellen",
+    "etw. umstellen"
+  ]
+}

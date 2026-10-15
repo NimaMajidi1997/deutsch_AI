@@ -1,0 +1,31 @@
+{
+  "lemma": "umarmen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "umarmt",
+    "praeteritum": "umarmte",
+    "perfekt": "hat umarmt"
+  },
+  "separable": false,
+  "rektion": "jdn. (Akk.) umarmen; sich umarmen",
+  "meaning_en": "to hug, to embrace",
+  "definition_de": "die Arme um jemanden legen und ihn an sich drücken (zur Begrüßung, zum Abschied, aus Freude); die Umarmung",
+  "example_de": "Als ihr Sohn aus Australien zurückkam, umarmte ihn die Mutter am Flughafen ganz fest.",
+  "example_en": "When her son came back from Australia, his mother hugged him tightly at the airport.",
+  "visual_idea": "Collocation 'jdn. fest umarmen' at the most emotional everyday moment: a reunion in the airport arrival hall, mother with arms wrapped around her tall son, backpack and suitcase showing the long trip. Strong emotion beats hugging friends after an exam. Arms 'um' the body make the prefix visible.",
+  "contrast_with": [
+    "drücken",
+    "küssen",
+    "die Hand geben"
+  ],
+  "image_prompt": "a bright airport arrival hall with large plain windows, a middle-aged mother with closed eyes and a happy tearful smile wraps both arms tightly around her tall, sun-tanned young son, he hugs her back and bends down to her, a big travel backpack on his shoulders and a large suitcase standing beside them, other travellers blurred in the background",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in an airport arrival hall a tall young man with a big backpack walks toward his mother, lets go of his suitcase, and she wraps her arms tightly around him; they rock gently side to side in a long hug; static medium shot",
+  "tags": [
+    "Familie",
+    "Gefühle",
+    "jdn. fest umarmen"
+  ]
+}

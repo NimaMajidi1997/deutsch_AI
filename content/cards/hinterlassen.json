@@ -1,0 +1,33 @@
+{
+  "lemma": "hinterlassen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "hinterlässt",
+    "praeteritum": "hinterließ",
+    "perfekt": "hat hinterlassen"
+  },
+  "separable": false,
+  "rektion": "etw. (Akk.) hinterlassen; jdm. etw. hinterlassen",
+  "meaning_en": "to leave (behind)",
+  "definition_de": "etwas zurücklassen, wenn man weggeht (Spuren, Chaos, eine Nachricht, einen Kommentar); auch: nach dem Tod vererben (Er hinterließ seinen Kindern ein Haus.)",
+  "example_de": "Der nasse Hund hat auf dem frisch geputzten Boden überall schmutzige Pfotenabdrücke hinterlassen.",
+  "example_en": "The wet dog left dirty paw prints all over the freshly mopped floor.",
+  "user_example_de": "Wenn ihr mir einen Kommentar hinterlasst, …",
+  "visual_idea": "Collocation 'Spuren hinterlassen': a trail of muddy paw prints across a shiny, freshly mopped floor leads to the proud wet dog. What was left behind is the visible result, and the mop adds humor. Every noun (Hund, Boden, Pfotenabdrücke) is in the image.",
+  "contrast_with": [
+    "verlassen",
+    "lassen",
+    "zurücklassen"
+  ],
+  "image_prompt": "a bright hallway with a freshly mopped, shiny light wooden floor, a long trail of muddy brown paw prints leading from an open garden door across the floor to a wet, happy golden retriever sitting proudly at the end of the trail, a mop and a bucket standing beside the door, morning light",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a wet golden retriever runs in through an open garden door and trots across a shiny, freshly mopped wooden floor, leaving a trail of muddy paw prints behind it, then sits down proudly at the end of the trail; static wide shot",
+  "tags": [
+    "Tiere",
+    "Alltag",
+    "Spuren hinterlassen",
+    "einen Kommentar hinterlassen"
+  ]
+}

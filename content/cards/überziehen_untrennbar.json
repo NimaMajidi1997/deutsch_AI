@@ -1,0 +1,35 @@
+{
+  "lemma": "überziehen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "überzieht",
+    "praeteritum": "überzog",
+    "perfekt": "hat überzogen"
+  },
+  "separable": false,
+  "stress": "überzíehen",
+  "pair": "überziehen_trennbar",
+  "rektion": "etw. (Akk.) (um + Akk.) überziehen (die Redezeit um zehn Minuten überziehen, das Konto überziehen)",
+  "meaning_en": "to exceed, to run over (time, budget); to overdraw (an account)",
+  "definition_de": "eine Grenze überschreiten, z. B. länger reden als geplant oder mehr Geld ausgeben, als auf dem Konto ist; auch: mit etw. bedecken (mit Schokolade überzogen); überzogen (Adj.) = übertrieben. Trennbar (ǘberziehen, hat übergezogen) heißt es 'ein Kleidungsstück über etwas anziehen'.",
+  "example_de": "Der Redner hat seine Redezeit um zwanzig Minuten überzogen, und das Publikum wurde langsam ungeduldig.",
+  "example_en": "The speaker ran twenty minutes over his speaking time, and the audience slowly grew impatient.",
+  "user_example_de": "Ich habe die Schulzeit um ein Jahr überzogen.",
+  "visual_idea": "Collocation 'die (Rede)Zeit überziehen': a speaker keeps talking while a large wall clock with a red marked time slot shows the hand far past the end, and the audience yawns and checks their watches. The limit and its crossing are both visible.",
+  "contrast_with": [
+    "verlängern",
+    "überschreiten",
+    "ǘberziehen (Kleidung)"
+  ],
+  "image_prompt": "a man in a suit speaking enthusiastically at a lectern in a small conference room, behind him a large round wall clock without numbers, a red segment on the clock face marks the planned time and the minute hand is already far past the red segment, in the front row bored listeners yawn, one checks her wristwatch, one rests his head on his hand",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a speaker at a lectern keeps talking and gesturing while the minute hand of a large wall clock behind him moves past the red marked segment; in the front row listeners yawn, shift in their seats and check their watches; static camera",
+  "tags": [
+    "Arbeit",
+    "Zeit",
+    "die Redezeit überziehen",
+    "das Konto überziehen"
+  ]
+}

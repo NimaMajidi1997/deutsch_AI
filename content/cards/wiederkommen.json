@@ -1,0 +1,31 @@
+{
+  "lemma": "wiederkommen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "kommt wieder",
+    "praeteritum": "kam wieder",
+    "perfekt": "ist wiedergekommen"
+  },
+  "separable": true,
+  "rektion": "(zu jdm. / nach Hause) wiederkommen",
+  "meaning_en": "to come back, to return",
+  "definition_de": "an einen Ort zurückkommen, an dem man schon war (Ich komme gleich wieder. Komm bald wieder!)",
+  "example_de": "Nach drei Tagen ist unsere Katze endlich wiedergekommen, ganz schmutzig und hungrig.",
+  "example_en": "After three days our cat finally came back, all dirty and hungry.",
+  "visual_idea": "Collocation 'ein Tier / jemand kommt (nach Hause) wieder': a dirty, skinny cat on the doorstep and a girl kneeling at the open front door with tears of joy shows the return after being missing. Stronger emotion than storks returning to a nest or a goodbye 'Ich komme wieder', which needs the sentence to explain.",
+  "contrast_with": [
+    "zurückkommen",
+    "wiederholen",
+    "weggehen"
+  ],
+  "image_prompt": "a young girl in pyjamas kneels in the open front door of a German terraced house in the early morning, tears of joy on her face, reaching out to a thin grey tabby cat with muddy paws and dusty, tangled fur that sits on the doormat looking up at her, an empty food bowl beside the door, small front garden behind the cat, eye-level view from inside the hallway",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a thin muddy grey tabby cat walks slowly up the garden path to a front door and sits down on the doormat; the door opens and a girl in pyjamas kneels down, gasps with joy and gently picks the cat up; static camera from the hallway",
+  "tags": [
+    "Alltag",
+    "Tiere",
+    "nach Hause wiederkommen"
+  ]
+}

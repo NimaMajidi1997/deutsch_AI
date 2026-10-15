@@ -1,0 +1,32 @@
+{
+  "lemma": "aufwachsen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "wächst auf",
+    "praeteritum": "wuchs auf",
+    "perfekt": "ist aufgewachsen"
+  },
+  "separable": true,
+  "rektion": "in + Dat. / auf + Dat. / bei + Dat. (auf dem Land, bei den Großeltern aufwachsen)",
+  "meaning_en": "to grow up",
+  "definition_de": "sich vom Kind zum Erwachsenen entwickeln",
+  "example_de": "Sie ist in einem kleinen Dorf an der Küste aufgewachsen, wo jeder jeden kannte.",
+  "example_en": "She grew up in a small village on the coast where everyone knew everyone.",
+  "visual_idea": "Collocation 'in einem Dorf / auf dem Land aufwachsen': the same girl at four ages in a row in front of her village home. Growth is visible in one still image, the place shows the typical 'aufwachsen in ...' use, and it is clearly one person's life (not 'wachsen' of plants). Video optional.",
+  "contrast_with": [
+    "wachsen",
+    "erwachsen",
+    "erziehen"
+  ],
+  "image_prompt": "the same girl shown at four ages standing side by side in a row, from left to right: toddler, schoolgirl, teenager, young woman, each one clearly taller than the last, identical face, identical dark brown ponytail and identical red jacket in every age, standing in front of her small white family house in a German coastal village with the sea behind, wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, different people",
+  "needs_video": false,
+  "video_prompt": "the camera slowly pans from left to right along a row of the same girl at four ages, toddler, schoolgirl, teenager, young woman, each one taller, all in the same red jacket, in front of a white house in a coastal village; gentle wind in the hair",
+  "tags": [
+    "Familie",
+    "Leben",
+    "in einem Dorf aufwachsen",
+    "auf dem Land aufwachsen"
+  ]
+}

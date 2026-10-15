@@ -1,0 +1,33 @@
+{
+  "lemma": "umstellen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "umstellt",
+    "praeteritum": "umstellte",
+    "perfekt": "hat umstellt"
+  },
+  "separable": false,
+  "stress": "umstéllen",
+  "pair": "umstellen_trennbar",
+  "rektion": "jdn./etw. (Akk.) umstellen",
+  "meaning_en": "to surround, to encircle",
+  "definition_de": "sich von allen Seiten um etwas herum aufstellen, sodass niemand entkommen kann (die Polizei umstellt das Haus); ähnlich: umzingeln",
+  "example_de": "In der Nacht umstellte die Polizei das Haus, in dem sich der Bankräuber versteckte.",
+  "example_en": "During the night the police surrounded the house in which the bank robber was hiding.",
+  "visual_idea": "Typical news collocation 'die Polizei umstellt ein Gebäude': a lone house seen from above with police cars and officers in a full ring around it shows um- as 'all the way around'. Hunters surrounding a deer or fans around a star were less typical. The Präteritum 'umstellte' shows the inseparable form; opposite úmstellen: moving the sofa.",
+  "contrast_with": [
+    "úmstellen (Möbel umstellen)",
+    "umzingeln",
+    "umringen"
+  ],
+  "image_prompt": "high aerial view at night of a single detached house standing alone on a dark field at the edge of a small town, police cars with flashing blue lights parked in a complete circle around the house, uniformed officers standing between the cars on all sides facing the house, one lit window in the house, spotlights pointed at the front door",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "high aerial view at night: police cars with flashing blue lights drive up from all sides and stop in a ring around a lone house, officers step out and take position around it facing the lit window; slow steady overhead camera",
+  "tags": [
+    "Polizei",
+    "Nachrichten",
+    "ein Haus umstellen"
+  ]
+}

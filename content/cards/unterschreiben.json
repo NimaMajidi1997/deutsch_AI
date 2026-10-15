@@ -1,0 +1,31 @@
+{
+  "lemma": "unterschreiben",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "unterschreibt",
+    "praeteritum": "unterschrieb",
+    "perfekt": "hat unterschrieben"
+  },
+  "separable": false,
+  "rektion": "etw. (Akk.) unterschreiben",
+  "meaning_en": "to sign",
+  "definition_de": "seinen Namen mit der Hand unter ein Dokument schreiben, um zuzustimmen (einen Vertrag, ein Formular unterschreiben); übertragen: Das kann ich unterschreiben = dem stimme ich zu",
+  "example_de": "Nachdem wir die Wohnung besichtigt hatten, haben wir sofort den Mietvertrag unterschrieben.",
+  "example_en": "After we had viewed the flat, we signed the rental contract right away.",
+  "visual_idea": "Most typical collocation 'einen (Miet-)Vertrag unterschreiben': a happy couple in an empty Altbau flat signing on a windowsill while the landlord holds out the keys; the keys + empty flat make the contract a rental one. The document is shown at a flat angle so it reads as blank paper (documents attract fake text). Signing a friend's plaster cast was more fun but less everyday.",
+  "contrast_with": [
+    "unterzeichnen",
+    "unterschreiben vs. ausfüllen",
+    "die Unterschrift"
+  ],
+  "image_prompt": "an empty sunny Altbau apartment with high white walls, tall windows and a wooden parquet floor, a young couple stands at the broad windowsill, the woman bends over a few white sheets of paper lying flat and signs with a pen while her partner smiles, an older landlord beside them holds out a bunch of apartment keys, the paper seen at a shallow angle so it looks plain white",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in an empty sunny Altbau apartment a young woman signs a sheet of paper on the windowsill with one smooth stroke of her pen, straightens up smiling, and the landlord hands the keys to her partner; static medium shot",
+  "tags": [
+    "Wohnen",
+    "Behörden",
+    "einen Vertrag unterschreiben"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "lemma": "sich einleben",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "lebt sich ein",
+    "praeteritum": "lebte sich ein",
+    "perfekt": "hat sich eingelebt"
+  },
+  "separable": true,
+  "rektion": "sich (in + Dat.) einleben (in einer neuen Stadt, Wohnung, Schule, Firma einleben)",
+  "meaning_en": "to settle in, to get used to a new place",
+  "definition_de": "sich an eine neue Umgebung gewöhnen und sich dort langsam zu Hause fühlen (Hast du dich in Berlin schon eingelebt?).",
+  "example_de": "Nach drei Wochen haben wir uns in der neuen Wohnung schon richtig gut eingelebt.",
+  "example_en": "After three weeks we have already settled in really well in the new apartment.",
+  "visual_idea": "Collocation 'sich in der neuen Wohnung einleben': a cosy, lived-in Altbau living room (plants, pictures, a rug, the cat asleep) with a mother, father and daughter laughing on the sofa, and one last flattened moving box by the door as the only sign of the move. The box plus the cosiness show 'new here, but already at home', and the sentence gives the time span. No video: settling in takes weeks, and a time-lapse from a box-filled room morphed people and furniture (tested).",
+  "contrast_with": [
+    "umziehen",
+    "sich gewöhnen an",
+    "sich fremd fühlen"
+  ],
+  "image_prompt": "eye-level wide shot of a cosy, lived-in Altbau living room with two tall windows, green plants on the windowsills, framed landscape paintings on the walls and a colourful rug, on a grey sofa a mother, a father and their eight-year-old daughter, the only three people in the room, relax and laugh together with mugs of cocoa, a cat sleeps on the rug, by the open door one single flattened empty moving box leans against the wall, warm afternoon light",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a family of three laughs together on the sofa of a cosy living room, the daughter leans against her father, the cat on the rug stretches and yawns; static eye-level wide shot, warm afternoon light",
+  "tags": [
+    "Wohnen",
+    "Umzug",
+    "sich einleben",
+    "in der neuen Wohnung"
+  ]
+}

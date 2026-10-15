@@ -1,0 +1,34 @@
+{
+  "lemma": "überziehen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "zieht über",
+    "praeteritum": "zog über",
+    "perfekt": "hat übergezogen"
+  },
+  "separable": true,
+  "stress": "ǘberziehen",
+  "pair": "überziehen_untrennbar",
+  "rektion": "(sich (Dat.)) etw. (Akk.) überziehen (sich eine Jacke, einen Pullover überziehen); ugs.: jdm. eins überziehen (= schlagen)",
+  "meaning_en": "to put on (a piece of clothing over something)",
+  "definition_de": "ein Kleidungsstück über das, was man schon trägt, anziehen (Zieh dir was über, es ist kalt!). Untrennbar (überzíehen, hat überzogen) heißt es 'eine Grenze überschreiten' (die Redezeit, das Konto überziehen).",
+  "example_de": "Als es am See abends kühl wurde, zog sie sich schnell eine dicke Strickjacke über.",
+  "example_en": "When it got cool by the lake in the evening, she quickly put on a thick cardigan.",
+  "visual_idea": "Collocation 'sich etw. überziehen': at dusk by a lake a woman in a light sleeveless summer dress, hunched against the cold, has a thick knitted cardigan around her shoulders and is pulling it on over the dress. The thin dress under the thick cardigan shows 'over' (on top of what she wears). Putting on clothes is a hand motion that a still image renders as 'holding a cardigan', so this is a motion card: the video shows her pulling it on. Rejected: a raincoat over a suit (reads as 'anziehen') and 'jdm. eins überziehen' (violent, colloquial).",
+  "contrast_with": [
+    "überzíehen (Grenze überschreiten)",
+    "anziehen",
+    "ausziehen"
+  ],
+  "image_prompt": "a young woman in a light sleeveless summer dress sits on a wooden jetty by a calm German lake at dusk, hunched against the evening cold, goosebumps on her bare arms, a thick chunky beige knitted cardigan hangs loosely around her shoulders over the dress and she grips its front edges with both hands, about to pull it on, a picnic blanket beside her, mist over the water, cool blue evening light, medium shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_prompt": "a young woman in a summer dress sits on a jetty by a lake at dusk and shivers; she picks up a thick knitted cardigan, pulls it on over her dress one arm after the other, wraps it tightly around herself and smiles, warm; static medium shot",
+  "tags": [
+    "Kleidung",
+    "Wetter",
+    "sich etw. überziehen",
+    "eine Jacke überziehen"
+  ]
+}

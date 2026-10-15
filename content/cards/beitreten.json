@@ -1,0 +1,32 @@
+{
+  "lemma": "beitreten",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "tritt bei",
+    "praeteritum": "trat bei",
+    "perfekt": "ist beigetreten"
+  },
+  "separable": true,
+  "rektion": "einer Sache (Dat.) beitreten (einem Verein, einer Partei, der EU)",
+  "meaning_en": "to join (a club, party, organisation)",
+  "definition_de": "Mitglied einer Gruppe oder Organisation werden; Gegenteil: austreten (aus + Dat.)",
+  "example_de": "Mit 12 Jahren ist sie dem Verein beigetreten.",
+  "example_en": "She joined the club at the age of 12.",
+  "visual_idea": "User's scene (joining a sports club at 12) wins: a coach hands a 12-year-old girl her own team jersey while the team in matching jerseys welcomes her with applause. Becoming a member is shown as receiving the shared jersey and being welcomed into the group; Verein = team + club pitch. Typical grammar: Dativ (dem Verein), Perfekt with 'sein', prefix 'bei-' at the end.",
+  "contrast_with": [
+    "austreten",
+    "eintreten",
+    "beitragen"
+  ],
+  "image_prompt": "on a sunny local football pitch a smiling twelve-year-old girl with a ponytail, wearing a plain white t-shirt and jeans, receives a bright green team jersey from a friendly middle-aged coach, holding it up proudly with both hands; behind her a team of girls her age in identical plain green jerseys and black shorts, completely unbranded fabric stands in a half circle, clapping and cheering to welcome her; small clubhouse and trees in the background, medium wide shot",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "on a sunny football pitch a coach hands a twelve-year-old girl a green team jersey, she holds it up proudly and pulls it on over her t-shirt, then the girls of the team in matching green jerseys step forward clapping and pull her into their half circle; static camera, slow readable motion",
+  "tags": [
+    "Freizeit",
+    "Sport",
+    "Gesellschaft",
+    "einem Verein beitreten"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "lemma": "durchstreichen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "streicht durch",
+    "praeteritum": "strich durch",
+    "perfekt": "hat durchgestrichen"
+  },
+  "separable": true,
+  "rektion": "etw. (Akk.) durchstreichen",
+  "meaning_en": "to cross out",
+  "definition_de": "einen Strich durch etwas Geschriebenes ziehen, weil es erledigt oder falsch ist (einen Fehler, einen Punkt auf der Liste durchstreichen). Untrennbar (durchstréichen = durchwandern) ist veraltet.",
+  "example_de": "Nach dem Einkauf strich sie auf der Einkaufsliste am Kühlschrank alles durch, was sie gekauft hatte.",
+  "example_en": "After the shopping she crossed out everything on the shopping list on the fridge that she had bought.",
+  "visual_idea": "Collocation 'etwas auf der Liste durchstreichen': a big whiteboard shopping list on the fridge drawn as little pictures (apple, bread, milk, eggs, cheese) with bold red lines through most of them, next to full shopping bags. Pictograms instead of words avoid fake text; a corrected spelling mistake or a crossed-off calendar would attract text or read as 'ankreuzen'.",
+  "contrast_with": [
+    "ankreuzen",
+    "streichen",
+    "abhaken"
+  ],
+  "image_prompt": "a bright kitchen, a large white magnetic whiteboard on the fridge door shows a vertical list of six simple hand-drawn doodle pictures: an apple, a loaf of bread, a milk bottle, three eggs, a wedge of cheese and a banana, the first five each crossed out by one bold horizontal red marker line, a smiling woman holds the red marker next to the board, two full paper grocery bags on the counter",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in a bright kitchen a woman unpacks a full grocery bag, takes a red marker and draws one bold horizontal line through each little drawing on the whiteboard list on the fridge, one after another, then smiles; static medium shot",
+  "tags": [
+    "Alltag",
+    "Einkaufen",
+    "etw. auf der Liste durchstreichen"
+  ]
+}
