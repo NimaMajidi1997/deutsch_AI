@@ -38,4 +38,4 @@ word (+ optional sentence) --/visual-card--> content/cards/<card>.json --scripts
   separable and an inseparable meaning get two cards, `umfahren_trennbar.json` + `umfahren_untrennbar.json`.
 - `content/media/` is git-ignored; cards are committed.
 - Keep docs short and current: replace outdated text instead of appending history.
-- GitHub: https://github.com/NimaMajidi1997 (remote not added yet).
+- GitHub: https://github.com/NimaMajidi1997/deutsch_AI (public; never commit secrets, server IPs or media). Live site: https://deutschai.nimadevops.de
