@@ -6,6 +6,7 @@ set -euo pipefail
 IMAGE="$1"
 CONTAINER_NAME=deutschai
 MEDIA_DIR=/srv/deutschai/media   # filled by scripts/push_media.py
+CACHE_VOLUME=deutschai-cache     # optimized images (AVIF/WebP), kept across deploys
 PORT=8001                        # nginx proxies deutschai.nimadevops.de here
 
 echo "📥 Pulling $IMAGE..."
@@ -19,6 +20,7 @@ docker run -d \
   --restart unless-stopped \
   -p 127.0.0.1:$PORT:3000 \
   -v "$MEDIA_DIR":/app/content/media:ro \
+  -v "$CACHE_VOLUME":/app/web/.next/cache \
   "$IMAGE"
 
 echo "🧼 Removing old deutschai images (keeping the newest 3 for rollback)..."

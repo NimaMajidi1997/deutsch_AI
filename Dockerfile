@@ -18,7 +18,8 @@ COPY --from=builder --chown=node:node /app/web/.next/standalone ./
 COPY --from=builder --chown=node:node /app/web/.next/static ./.next/static
 COPY --from=builder --chown=node:node /app/web/public ./public
 COPY --chown=node:node content/cards ../content/cards
-RUN mkdir -p ../content/media
+# .next/cache holds the optimized images; deploy.sh mounts a volume there so it survives deploys.
+RUN mkdir -p ../content/media .next/cache && chown node:node .next/cache
 # Fail the build if image optimization would silently fall back to full-size PNGs.
 RUN node -e "require('sharp')"
 USER node

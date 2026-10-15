@@ -11,6 +11,9 @@ content/media --scripts/push_media.py (ssh + tar)--> server: /srv/deutschai/medi
   the container at `/app/content/media`. Pages and `app/media/[...path]/route.ts` read it per
   request, so new media shows up without a rebuild or restart.
 - Container listens on `127.0.0.1:8001` only; nginx terminates TLS and proxies the subdomain.
+- Optimized images (Next converts each PNG to AVIF/WebP on first request, ~1 s each on the
+  1-core server) are kept in the Docker volume `deutschai-cache`, so deploys don't reset them.
+  `docker volume rm deutschai-cache` (with the container stopped) clears it.
 
 ## Media upload
 ```powershell
