@@ -71,7 +71,8 @@ If one form is rare, there is one card, and the other meaning is mentioned in `d
   image shows a result (*zerstören*: the destroyed sandcastle), or the meaning is a motion
   (*durchblättern*). Words that work as a still image get `false`.
 - `video_start_prompt`: only for result cards. The **before** state (the intact sandcastle), used
-  as the video's first frame. Motion cards start from the card image.
+  as the video's first frame; the video then ends on the card image (first + last frame workflow).
+  Motion cards have none and start from the card image.
 - `video_prompt`: start → motion → end in one continuous shot.
 
 What models can and can't draw, and other lessons from testing, are in `model-tests.md`.

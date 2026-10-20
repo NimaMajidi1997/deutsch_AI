@@ -1,0 +1,32 @@
+{
+  "lemma": "ausformen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "formt aus",
+    "praeteritum": "formte aus",
+    "perfekt": "hat ausgeformt"
+  },
+  "separable": true,
+  "rektion": "etw. (Akk.) (zu etw. Dat.) ausformen",
+  "meaning_en": "to shape, to form (dough, clay) into its final shape; fig.: to work out in detail",
+  "definition_de": "einer Masse (Teig, Ton) die endgültige Form geben (den Teig zu Brötchen ausformen); übertragen: etwas im Detail ausarbeiten (eine Idee ausformen). Seltener als 'formen'; typisch in Back- und Handwerkssprache.",
+  "example_de": "In der Backstube formt der Bäckerlehrling den Teig zu gleichmäßigen runden Brötchen aus.",
+  "example_en": "In the bakehouse, the baker's apprentice shapes the dough into even, round rolls.",
+  "visual_idea": "Collocation 'den Teig (zu Brötchen) ausformen', the standard phrase in baking: a shapeless lump of dough at one side and a tray of identical round dough balls at the other, so lump to final shape (aus- = fully worked out) is visible in one frame, and the result does not depend on drawing hands precisely. Rejected: shaping clay on a potter's wheel (reads as 'töpfern') and 'eine Idee ausformen' (abstract).",
+  "contrast_with": [
+    "formen",
+    "kneten",
+    "ausrollen"
+  ],
+  "image_prompt": "in a German bakery workshop a young baker in white clothes and a white cap stands at a floured wooden table; on the left a big shapeless lump of pale dough, in the middle a large black baking tray with twenty identical smooth round dough balls in neat rows, he rolls the last small ball between his floury palms above the tray; flour dust in warm light, early morning",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in a bakery workshop a young baker tears a piece from a big lump of dough, rolls it between his palms into a smooth round ball and places it in the last free spot on a tray full of identical dough balls; static camera",
+  "tags": [
+    "Essen",
+    "Bäckerei",
+    "Handwerk",
+    "Teig zu Brötchen ausformen"
+  ]
+}

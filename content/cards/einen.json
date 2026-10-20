@@ -1,0 +1,33 @@
+{
+  "lemma": "einen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "eint",
+    "praeteritum": "einte",
+    "perfekt": "hat geeint"
+  },
+  "separable": false,
+  "rektion": "jdn./etw. (Akk.) einen (geh.); sich einen",
+  "meaning_en": "to unite, to bring together",
+  "definition_de": "verschiedene Menschen oder Teile zu einer Einheit zusammenbringen (Die Musik eint die Menschen. Das Land wurde geeint.); gehobener als 'vereinen'",
+  "example_de": "Beim Straßenfest einte die Musik der kleinen Band Junge und Alte aus dem ganzen Viertel.",
+  "example_en": "At the street party, the little band's music united young and old from the whole neighbourhood.",
+  "visual_idea": "Collocation 'die Musik eint die Menschen': young and old people who would normally not mix dance arm in arm in one big circle in front of a band, so 'bringing different people together into one' is visible. Rejected: 'das Land einen' (German reunification; needs history and reads as 'feiern') and 'die Fans einen' (a stadium reads as 'jubeln').",
+  "contrast_with": [
+    "vereinen",
+    "verbinden",
+    "einigen",
+    "trennen"
+  ],
+  "image_prompt": "a street party on a cobblestone street between old apartment buildings on a summer evening, string lights above; a small band with guitar, accordion and drums plays on a low wooden stage; in front of it teenagers, young parents, and elderly people with grey hair dance together arm in arm in one big closed circle; a grandmother and a teenage boy in a hoodie hold hands and laugh",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "at a street party a small band plays while teenagers and elderly neighbours join hands one by one and form one big circle, then dance around together laughing under string lights; slow camera pull back",
+  "tags": [
+    "Gesellschaft",
+    "Fest",
+    "Musik",
+    "die Menschen einen"
+  ]
+}

@@ -19,8 +19,13 @@ function mediaDirs(): Map<string, string> {
 
 function mediaFor(id: string, dirs: Map<string, string>): Media {
   const name = dirs.get(id);
-  const files = name ? fs.readdirSync(path.join(MEDIA, name)) : [];
-  const url = (f: string) => `/media/${encodeURIComponent(id)}/${f}`;
+  const dir = name ? path.join(MEDIA, name) : "";
+  const files = name ? fs.readdirSync(dir) : [];
+  // The file's mtime is part of the URL, so a re-rendered file gets a new URL instead of a cached old one.
+  const url = (f: string) => {
+    const v = Math.floor(fs.statSync(path.join(dir, f)).mtimeMs / 1000);
+    return `/media/v${v}/${encodeURIComponent(id)}/${f}`;
+  };
   const pick = (role: string) => {
     const real = files.find((f) => f.startsWith(`${role}_realistic.`));
     const any = real ?? files.find((f) => f.startsWith(`${role}_`));

@@ -1,0 +1,32 @@
+{
+  "lemma": "eintauchen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "taucht ein",
+    "praeteritum": "tauchte ein",
+    "perfekt": "hat eingetaucht / ist eingetaucht"
+  },
+  "separable": true,
+  "rektion": "etw. in etw. (Akk.) eintauchen (hat); in etw. (Akk.) eintauchen (ist; auch fig.: in eine andere Welt / Kultur eintauchen)",
+  "meaning_en": "to dip (sth. into sth.); to plunge/dive into; fig.: to immerse oneself in",
+  "definition_de": "etwas kurz in eine Flüssigkeit tauchen; selbst in Wasser hineingehen; übertragen: sich ganz auf etwas einlassen (in eine fremde Kultur / in ein Buch eintauchen)",
+  "example_de": "Mein Opa taucht jeden Morgen sein Croissant kurz in den großen Milchkaffee ein.",
+  "example_en": "Every morning my grandpa briefly dips his croissant into his big milky coffee.",
+  "visual_idea": "Collocation 'etw. in Kaffee eintauchen': a croissant half sunk into a big cup, its soaked darker end making ein- (into) visible, a cosy everyday ritual. Rejected: a diver plunging into a lake (the moment of impact is drawn badly, and the underwater boy is already 'untertauchen') and 'in eine andere Welt eintauchen' (a reader with a book reads as 'lesen'). The figurative use is in definition_de.",
+  "contrast_with": [
+    "tunken",
+    "untertauchen",
+    "auftauchen"
+  ],
+  "image_prompt": "close-up of a breakfast table by a sunny window: an old man's hand holds a golden croissant whose lower half is sunk deep into a large white cup of milky coffee, the coffee rippling around it, the soaked part dark and wet, crumbs on a small plate, a jar of jam, the old man's smiling face softly blurred behind",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "close-up at a breakfast table: an old man's hand slowly dips a golden croissant into a large white cup of milky coffee, holds it there for a moment, then lifts it out with the soaked end dripping; static camera",
+  "tags": [
+    "Essen",
+    "Frühstück",
+    "Alltag",
+    "in den Kaffee eintauchen"
+  ]
+}

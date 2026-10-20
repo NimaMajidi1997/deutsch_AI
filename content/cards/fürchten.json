@@ -1,0 +1,32 @@
+{
+  "lemma": "fürchten",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "fürchtet",
+    "praeteritum": "fürchtete",
+    "perfekt": "hat gefürchtet"
+  },
+  "separable": false,
+  "rektion": "sich vor etw./jdm. (Dat.) fürchten; etw./jdn. (Akk.) fürchten; ich fürchte, (dass) …",
+  "meaning_en": "to fear, to be afraid (of); ich fürchte: I'm afraid (that)",
+  "definition_de": "Angst vor etwas haben (sich vor Hunden fürchten); höflich: ich fürchte, … = leider glaube ich, … (Ich fürchte, wir haben den letzten Bus verpasst.)",
+  "example_de": "Der kleine Junge fürchtet sich vor dem Gewitter und versteckt sich unter seiner Decke.",
+  "example_en": "The little boy is afraid of the thunderstorm and hides under his blanket.",
+  "visual_idea": "Collocation 'sich vor dem Gewitter fürchten': a small boy in bed with the blanket pulled up to his wide, frightened eyes while lightning flashes in the window. Fear is shown through body language plus a clear cause, and the picture teaches the pattern 'sich fürchten vor + Dat.'. Junge, Gewitter and Decke are visible. The polite 'ich fürchte, …' is in definition_de; it has no picture of its own.",
+  "contrast_with": [
+    "Angst haben",
+    "sich erschrecken",
+    "befürchten"
+  ],
+  "image_prompt": "a small boy of about five sits up in his bed in a dark children's room, the blanket pulled up to just under his wide frightened eyes, both hands clutching the edge of the blanket, a worn teddy bear pressed against him, behind the bed a window with a bright jagged lightning bolt in a dark stormy sky, rain on the glass, cold blue flash light on his face",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a small boy sits in bed in a dark room, lightning flashes bright in the window behind him, he flinches, squeezes his teddy bear and pulls the blanket up over his head; static medium shot, rain running down the window",
+  "tags": [
+    "Gefühle",
+    "Familie",
+    "Wetter",
+    "sich vor etw. fürchten"
+  ]
+}

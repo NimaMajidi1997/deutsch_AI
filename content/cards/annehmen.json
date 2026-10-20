@@ -1,0 +1,33 @@
+{
+  "lemma": "annehmen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "nimmt an",
+    "praeteritum": "nahm an",
+    "perfekt": "hat angenommen"
+  },
+  "separable": true,
+  "rektion": "etw. (Akk.) annehmen (ein Paket, ein Angebot, ein Geschenk); annehmen, dass … (= vermuten)",
+  "meaning_en": "to accept, to take (receive); to assume",
+  "definition_de": "etwas, das einem gegeben oder angeboten wird, nehmen (ein Paket / eine Einladung / einen Vorschlag annehmen); auch: vermuten (Ich nehme an, dass er krank ist.)",
+  "example_de": "Weil mein Nachbar nicht zu Hause war, habe ich sein Paket angenommen.",
+  "example_en": "Because my neighbour wasn't home, I took in his parcel.",
+  "visual_idea": "Collocation 'ein Paket (für den Nachbarn) annehmen', a daily German routine: the courier hands over a big box at the apartment door and the woman in slippers takes it, while the neighbour's closed door shows whose parcel it is. Rejected: 'ein Angebot annehmen' (a handshake reads as 'begrüßen') and 'annehmen, dass …' (abstract).",
+  "contrast_with": [
+    "abnehmen",
+    "ablehnen",
+    "vermuten",
+    "übernehmen"
+  ],
+  "image_prompt": "the stairwell landing of an old German apartment building; a delivery man in a brown jacket hands a large plain brown cardboard box with no labels to a smiling woman in a grey cardigan and slippers standing in her open apartment door, she reaches out with both arms to take it; across the landing the closed wooden door of the neighbour's apartment with an empty doormat",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "on the landing of an old apartment building a delivery man rings at the neighbour's closed door, waits, then turns to a woman in a cardigan opening her own door; he hands her a large brown box and she takes it with both arms and nods; static camera",
+  "tags": [
+    "Alltag",
+    "Wohnen",
+    "Nachbarn",
+    "ein Paket annehmen"
+  ]
+}

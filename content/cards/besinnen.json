@@ -1,0 +1,33 @@
+{
+  "lemma": "besinnen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "besinnt sich",
+    "praeteritum": "besann sich",
+    "perfekt": "hat sich besonnen"
+  },
+  "separable": false,
+  "rektion": "sich auf etw. (Akk.) besinnen; sich eines Besseren besinnen",
+  "meaning_en": "sich auf etw. besinnen: to remember, to return to, to refocus on (values, strengths); sich eines Besseren besinnen: to think better of it",
+  "definition_de": "sich wieder an etwas Wichtiges erinnern und sich danach richten (sich auf seine Stärken / auf das Wesentliche besinnen); sich eines Besseren besinnen: seine Meinung ändern",
+  "example_de": "Ich hoffe, dass sich die nächste Generation auf andere Werte besinnen wird.",
+  "example_en": "I hope that the next generation will turn to other values.",
+  "visual_idea": "The user's sentence won (tie, preferred as the context they met the word in); all uses of 'besinnen' are abstract, so no scene is clearly better. 'Andere Werte' becomes concrete: young adults sharing a garden harvest and repairing a bike instead of buying, phones put aside in a basket, an old woman watching approvingly as the older generation. Rejected: 'sich auf das Wesentliche besinnen' (a person in a cabin reads as 'entspannen') and 'sich eines Besseren besinnen' (a change of mind isn't drawable).",
+  "contrast_with": [
+    "besinnlich",
+    "sich erinnern",
+    "nachdenken",
+    "sich entsinnen"
+  ],
+  "image_prompt": "a community garden on a warm summer evening; a group of young adults in their twenties sit at a long wooden table sharing bread and freshly harvested vegetables from the beds around them, laughing and talking face to face; beside the table one young man repairs an old bicycle together with a friend; their smartphones lie forgotten in a wicker basket at the end of the table; an old woman on a bench nearby watches them and smiles",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in a community garden at golden hour young adults pass bread and vegetables along a long wooden table and laugh together, one young man puts his phone into a basket and joins them, an old woman on a bench watches and smiles; slow camera pan along the table",
+  "tags": [
+    "Gesellschaft",
+    "Werte",
+    "Generationen",
+    "sich auf Werte besinnen"
+  ]
+}

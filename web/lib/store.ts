@@ -2,9 +2,9 @@
 // Per-browser preferences and bookmarks (localStorage), shared across components.
 import { useCallback, useSyncExternalStore } from "react";
 
-type State = { saved: string[]; english: boolean; autoplay: boolean };
+type State = { saved: string[]; english: boolean; autoplay: boolean; seen: Record<string, number> };
 const KEY = "deutschai:v1";
-const DEFAULT: State = { saved: [], english: true, autoplay: true };
+const DEFAULT: State = { saved: [], english: true, autoplay: true, seen: {} };
 
 let state: State = DEFAULT;
 let loaded = false;
@@ -57,4 +57,16 @@ export function useEnglish() {
 export function useAutoplay() {
   const autoplay = useStore((s) => s.autoplay, DEFAULT.autoplay);
   return { autoplay, setAutoplay: (v: boolean) => set({ autoplay: v }) };
+}
+
+/** Kino: when each card was last watched (ms timestamp), so the next show starts with new ones. */
+export function markSeen(id: string) {
+  load();
+  set({ seen: { ...state.seen, [id]: Date.now() } });
+}
+
+/** Never-seen cards first (in the given order), then the ones seen longest ago. */
+export function leastRecentlySeen<T extends { id: string }>(items: T[]): T[] {
+  load();
+  return [...items].sort((a, b) => (state.seen[a.id] ?? 0) - (state.seen[b.id] ?? 0));
 }

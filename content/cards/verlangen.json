@@ -1,0 +1,32 @@
+{
+  "lemma": "verlangen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "verlangt",
+    "praeteritum": "verlangte",
+    "perfekt": "hat verlangt"
+  },
+  "separable": false,
+  "rektion": "etw. (Akk.) (von jdm.) verlangen; nach jdm./etw. verlangen (geh.)",
+  "meaning_en": "to demand, to ask for, to require; to charge (a price)",
+  "definition_de": "mit Nachdruck fordern, dass man etwas bekommt (den Ausweis / eine Erklärung verlangen; zu viel Geld verlangen; Das verlangt viel Geduld.)",
+  "example_de": "Der Kontrolleur verlangte in der S-Bahn meine Fahrkarte, doch ich konnte sie nirgends finden.",
+  "example_en": "The inspector on the S-Bahn demanded my ticket, but I couldn't find it anywhere.",
+  "visual_idea": "Collocation 'die Fahrkarte / den Ausweis verlangen': the inspector's outstretched, waiting open hand is the demand, and the panicking passenger digging through his bag makes it funny and memorable. The ticket is deliberately missing (it's the point of the story, and paper attracts fake text). Rejected: 'zu viel Geld verlangen' (a price tag needs text) and 'viel von jdm. verlangen' (abstract).",
+  "contrast_with": [
+    "fordern",
+    "bitten",
+    "anbieten"
+  ],
+  "image_prompt": "inside a German S-Bahn carriage with grey seats; a ticket inspector in a dark blue uniform jacket stands in the aisle and holds out his open empty palm expectantly toward a seated young man, raising one eyebrow; the young man digs frantically through his open backpack, his jacket pockets turned inside out, with a stressed, sweating face; two other passengers glance over",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in an S-Bahn carriage a ticket inspector in a dark blue uniform stops in front of a seated young man and holds out his open hand; the young man pats his pockets, then searches more and more frantically through his backpack while the inspector waits; static camera",
+  "tags": [
+    "Verkehr",
+    "Bahn",
+    "Alltag",
+    "die Fahrkarte verlangen"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "lemma": "erlernen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "erlernt",
+    "praeteritum": "erlernte",
+    "perfekt": "hat erlernt"
+  },
+  "separable": false,
+  "rektion": "etw. (Akk.) erlernen (einen Beruf, ein Handwerk, eine Sprache, ein Instrument)",
+  "meaning_en": "to learn, to acquire (a skill, a trade), to train as",
+  "definition_de": "etwas so lange lernen, bis man es wirklich beherrscht, besonders einen Beruf oder ein Handwerk (einen Beruf erlernen; eine Fremdsprache erlernen)",
+  "example_de": "In einer kleinen Werkstatt erlernt mein Bruder seit einem Jahr den Beruf des Tischlers.",
+  "example_en": "My brother has been training as a carpenter in a small workshop for a year.",
+  "visual_idea": "Collocation 'einen Beruf / ein Handwerk erlernen': an apprentice at the workbench with the master watching shows learning a whole skill over time (not cramming facts like 'lernen'). Planing with long curls of shavings is a big, readable body action. Rejected: 'eine Sprache erlernen' (a person with a book reads as 'lesen') and 'ein Instrument erlernen' (reads as 'spielen').",
+  "contrast_with": [
+    "lernen",
+    "beibringen",
+    "ausbilden"
+  ],
+  "image_prompt": "a small bright carpentry workshop with tools hanging on the wall; a young apprentice in a dark work apron leans over a workbench and pushes a hand plane along a long wooden board, long curly wood shavings piling up; an older master carpenter with a grey beard stands right beside him, one hand on his shoulder, watching closely and nodding; sawdust glowing in the sunlight from the window",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in a bright carpentry workshop a young apprentice slowly pushes a hand plane along a wooden board and long curls of wood shavings roll off; the grey-bearded master beside him watches, then nods and pats his shoulder; static camera",
+  "tags": [
+    "Beruf",
+    "Ausbildung",
+    "Handwerk",
+    "einen Beruf erlernen"
+  ]
+}

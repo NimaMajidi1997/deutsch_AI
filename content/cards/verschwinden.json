@@ -1,0 +1,32 @@
+{
+  "lemma": "verschwinden",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "verschwindet",
+    "praeteritum": "verschwand",
+    "perfekt": "ist verschwunden"
+  },
+  "separable": false,
+  "rektion": "in etw. (Dat.) / hinter etw. (Dat.) verschwinden; aus etw. (Dat.) verschwinden",
+  "meaning_en": "to disappear, to vanish",
+  "definition_de": "nicht mehr zu sehen sein; weggehen, sodass man jemanden/etwas nicht mehr findet (Mein Schlüssel ist verschwunden. Die Sonne verschwindet hinter den Wolken.)",
+  "example_de": "Langsam ging der Wanderer den Weg hinauf und verschwand nach wenigen Metern im dichten Nebel.",
+  "example_en": "The hiker slowly walked up the path and disappeared into the thick fog after a few metres.",
+  "visual_idea": "Collocation 'im Nebel verschwinden': the path is sharp in the foreground and a hiker is only a faint ghostly outline swallowed by thick fog, a result state that image models draw well (a magician's empty hat would read as 'zaubern', a lost key shows nothing). ver- = away. Disappearing is a change over time, so a first+last-frame video starts with the hiker clearly visible and ends with this card frame.",
+  "contrast_with": [
+    "erscheinen",
+    "auftauchen",
+    "verlieren"
+  ],
+  "image_prompt": "static view along a narrow gravel mountain path rising straight away from the camera between wet grass and low rocks, thick white fog filling the frame beyond ten metres, soft grey morning light; far up the path, barely visible, the faint pale ghostly outline of a hiker in a red jacket with a grey backpack, almost completely dissolved into the dense fog, the path and grass in the foreground sharp and clear",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "static view along a narrow gravel mountain path rising straight away from the camera between wet grass and low rocks, thick white fog filling the frame beyond ten metres, soft grey morning light; a few metres up the path a hiker in a red jacket with a grey backpack walks away from the camera, clearly visible and sharp, the fog thick and white ahead of him",
+  "video_prompt": "static camera along a gravel mountain path: a hiker in a red jacket with a grey backpack walks slowly up the path away from the camera into thick white fog, his figure grows paler and fainter with every step until only a faint ghostly outline is left in the fog",
+  "tags": [
+    "Natur",
+    "Wetter",
+    "im Nebel verschwinden"
+  ]
+}

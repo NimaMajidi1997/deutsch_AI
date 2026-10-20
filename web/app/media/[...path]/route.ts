@@ -6,7 +6,8 @@ import { MEDIA } from "@/lib/cards";
 
 // Serves ../content/media at request time. public/ is only scanned when the server starts, so
 // files uploaded later by scripts/push_media.py would not show up there. next/image fetches
-// these URLs internally, so optimization still works.
+// these URLs internally, so optimization still works. URLs from lib/cards.ts start with a version
+// segment (v<mtime>), so they never change content and can be cached for good.
 
 const TYPES: Record<string, string> = {
   ".png": "image/png",
@@ -31,7 +32,9 @@ function resolve(parts: string[]): string | null {
 }
 
 export async function GET(req: NextRequest, ctx: RouteContext<"/media/[...path]">) {
-  const file = resolve((await ctx.params).path);
+  const parts = (await ctx.params).path;
+  const versioned = /^v\d+$/.test(parts[0] ?? "");
+  const file = resolve(versioned ? parts.slice(1) : parts);
   const type = file && TYPES[path.extname(file).toLowerCase()];
   const stat = file && type ? fs.statSync(/*turbopackIgnore: true*/ file, { throwIfNoEntry: false }) : undefined;
   if (!file || !type || !stat?.isFile()) return new Response("Not found", { status: 404 });
@@ -40,7 +43,7 @@ export async function GET(req: NextRequest, ctx: RouteContext<"/media/[...path]"
     "Content-Type": type,
     "Accept-Ranges": "bytes",
     "Last-Modified": stat.mtime.toUTCString(),
-    "Cache-Control": "public, max-age=3600",
+    "Cache-Control": versioned ? "public, max-age=31536000, immutable" : "public, max-age=3600",
   });
 
   // Videos are fetched in ranges (seeking; Safari requires it).

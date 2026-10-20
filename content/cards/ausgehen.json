@@ -1,0 +1,32 @@
+{
+  "lemma": "ausgehen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "geht aus",
+    "praeteritum": "ging aus",
+    "perfekt": "ist ausgegangen"
+  },
+  "separable": true,
+  "rektion": "von etw. (Dat.) ausgehen (davon ausgehen, dass …); (abends) ausgehen; jdm. geht etw. aus",
+  "meaning_en": "von etw. ausgehen: to assume, to take for granted; also: to go out; to run out; to go out (light)",
+  "definition_de": "von etw. ausgehen: etwas als sicher annehmen (Ich gehe davon aus, dass du kommst.); auch: abends weggehen (Wir gehen heute aus.); zu Ende gehen (Uns ist das Geld ausgegangen.); aufhören zu brennen (Das Licht geht aus.)",
+  "example_de": "Wir sind davon ausgegangen, dass das Wetter hält, und haben keine Regenschirme mitgenommen.",
+  "example_en": "We assumed the weather would hold, so we didn't take any umbrellas.",
+  "visual_idea": "The user's collocation 'von etw. ausgehen' won: an assumption is invisible, but a wrong assumption is visible and funny. A family's picnic surprised by a downpour, without umbrellas, plates over their heads, shows the consequence of 'davon ausgehen, dass …'. Rejected: 'abends ausgehen' (friends at a bar read as 'feiern') and 'das Licht geht aus' (a dark room shows nothing).",
+  "contrast_with": [
+    "annehmen",
+    "vermuten",
+    "rechnen mit"
+  ],
+  "image_prompt": "a family of four on a picnic blanket in a city park, surprised by a sudden heavy downpour from a dark grey sky; they hold paper plates and a picnic basket lid over their heads, completely soaked, laughing in shock, sandwiches and fruit on the blanket getting wet, puddles forming, in the background other people running for shelter, nobody has an umbrella",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a family of four sits happily on a picnic blanket in a park under a darkening sky; suddenly heavy rain pours down, they jump up laughing and hold paper plates over their heads while the food gets wet; static camera",
+  "tags": [
+    "Wetter",
+    "Freizeit",
+    "Familie",
+    "von etwas ausgehen"
+  ]
+}

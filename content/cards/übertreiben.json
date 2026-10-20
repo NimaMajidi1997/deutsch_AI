@@ -1,0 +1,33 @@
+{
+  "lemma": "übertreiben",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "übertreibt",
+    "praeteritum": "übertrieb",
+    "perfekt": "hat übertrieben"
+  },
+  "separable": false,
+  "stress": "übertréiben",
+  "rektion": "etw. (Akk.) übertreiben (es mit etw. übertreiben: Er übertreibt es mit dem Sport.)",
+  "meaning_en": "to exaggerate; to overdo",
+  "definition_de": "etwas größer, schlimmer oder besser darstellen, als es ist; auch: etwas zu viel oder zu stark tun (es mit dem Training übertreiben). Eine trennbare Form gibt es im heutigen Deutsch praktisch nicht.",
+  "example_de": "Er übertreibt mal wieder: Der Fisch, den er gefangen hat, ist in Wirklichkeit winzig.",
+  "example_en": "He's exaggerating again: the fish he caught is actually tiny.",
+  "visual_idea": "The classic angler's tale: a man on a jetty spreads his arms a metre wide to show 'his' fish, while the real fish lies tiny in his friend's palm right in front of him. The gap between claim and reality is the meaning of 'übertreiben', and the humor makes it stick. Both nouns (Fisch, the angler) are visible. A still is enough.",
+  "contrast_with": [
+    "untertreiben",
+    "lügen",
+    "angeben"
+  ],
+  "image_prompt": "two men in their fifties on a wooden jetty at a calm lake, a fishing rod leaning on the railing; the man on the left in a green fishing vest and cap spreads both arms a full metre wide, eyes wide with proud enthusiasm; the man on the right raises one eyebrow and holds out his open palm in the foreground, with one tiny silver fish the size of a finger lying in it, soft afternoon light",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "on a wooden lake jetty an angler in a green vest spreads his arms wider and wider while talking proudly, his friend holds out his open palm with one tiny fish in it, looks at the fish, then back at him and shakes his head with a smile; static medium shot",
+  "tags": [
+    "Humor",
+    "Kommunikation",
+    "Freizeit",
+    "maßlos übertreiben"
+  ]
+}

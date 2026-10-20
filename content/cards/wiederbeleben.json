@@ -1,0 +1,34 @@
+{
+  "lemma": "wiederbeleben",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "belebt wieder",
+    "praeteritum": "belebte wieder",
+    "perfekt": "hat wiederbelebt"
+  },
+  "separable": true,
+  "stress": "wíederbeleben",
+  "rektion": "jdn. wiederbeleben; fig.: etw. (Akk.) wiederbeleben (eine Tradition, die Innenstadt)",
+  "meaning_en": "to resuscitate, to revive; fig.: to revive (a tradition)",
+  "definition_de": "einen bewusstlosen Menschen, dessen Herz nicht mehr schlägt, wieder zum Leben bringen (mit Herzdruckmassage); übertragen: etwas Altes wieder lebendig machen (eine Tradition wiederbeleben). Nur trennbar (Perfekt: wiederbelebt); eine untrennbare Form gibt es nicht.",
+  "example_de": "Eine Passantin hat den bewusstlosen Jogger im Park wiederbelebt, kurz bevor der Krankenwagen kam.",
+  "example_en": "A passer-by resuscitated the unconscious jogger in the park just before the ambulance arrived.",
+  "visual_idea": "Collocation 'jdn. wiederbeleben' (Erste Hilfe): the result state shows the jogger opening his eyes while the helper sits back relieved, with the ambulance arriving behind, so back-to-life is visible and all sentence nouns are in frame. Rejected: 'eine Tradition wiederbeleben' (a folk festival reads as 'feiern') and 'die Innenstadt wiederbeleben' (abstract). Unconscious to awake is a change, so a first+last-frame video starts with the CPR.",
+  "contrast_with": [
+    "beleben",
+    "retten",
+    "Erste Hilfe leisten",
+    "aufwachen"
+  ],
+  "image_prompt": "low side view of a park path with green lawn, a red and white ambulance stopping on the road in the background with its blue lights on; a young woman with a brown ponytail in a blue jacket kneels beside a man in a grey running shirt lying on his back on the path; the man has just opened his eyes and lifts his head slightly, coughing; the woman sits back on her heels with a deeply relieved smile, one hand on his shoulder",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "low side view of a park path with green lawn, a red and white ambulance stopping on the road in the background with its blue lights on; a young woman with a brown ponytail in a blue jacket kneels beside a man in a grey running shirt lying on his back on the path; the man's eyes are closed and his face is pale; the woman leans over him with straight arms and presses both hands on the centre of his chest",
+  "video_prompt": "on a park path a young woman with a brown ponytail in a blue jacket does chest compressions on an unconscious man in a grey running shirt; after a few pushes he opens his eyes, coughs and lifts his head, and she sits back on her heels with relief, an ambulance arriving behind; static low side view",
+  "tags": [
+    "Gesundheit",
+    "Erste Hilfe",
+    "jemanden wiederbeleben"
+  ]
+}

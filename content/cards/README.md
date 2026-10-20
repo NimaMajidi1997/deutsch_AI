@@ -34,7 +34,8 @@ inseparable forms have different meanings get two cards with the same `lemma`:
   "negative_prompt": "...",
   "needs_video": false,                  // true: a video is made (result card or motion is the meaning)
   "video_start_prompt": "...",           // optional, result cards only: image prompt for the video's
-                                         //   FIRST frame (the "before" state); else the card image is used
+                                         //   FIRST frame (the "before" state); the card image is then the
+                                         //   LAST frame. Without it the card image is the first frame
   "video_prompt": "...",                 // English, 5 s, one clear motion
   "tags": ["Familie", "Leben"]
 }

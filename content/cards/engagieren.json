@@ -1,0 +1,33 @@
+{
+  "lemma": "engagieren",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "engagiert",
+    "praeteritum": "engagierte",
+    "perfekt": "hat engagiert"
+  },
+  "separable": false,
+  "rektion": "sich (ehrenamtlich) für etw./jdn. (Akk.) engagieren; sich in etw. (Dat.) engagieren; jdn. engagieren (anstellen)",
+  "meaning_en": "to get involved, to volunteer (sich engagieren); to hire, to engage (jdn. engagieren)",
+  "definition_de": "sich engagieren: sich aktiv und mit Einsatz für eine Sache einsetzen, oft ohne Bezahlung (ehrenamtlich); jdn. engagieren: jemanden für eine Aufgabe anstellen (eine Band für die Hochzeit engagieren)",
+  "example_de": "Seit ihrer Rente engagiert sie sich ehrenamtlich und sammelt jeden Samstag Müll im Stadtpark.",
+  "example_en": "Since retiring she has been volunteering and collects litter in the city park every Saturday.",
+  "user_example_de": "sich ehrenamtlich engagieren",
+  "visual_idea": "The user's collocation 'sich ehrenamtlich engagieren' wins, shown as a park clean-up: an energetic retired woman in a plain volunteer vest with a litter grabber and a full trash bag, other volunteers behind her. Vests, gloves and the group make 'unpaid, for the common good' clear, which a food-bank scene (could read as a shop) would not. Rente (her age), Müll and Stadtpark are visible.",
+  "contrast_with": [
+    "arbeiten",
+    "helfen",
+    "sich einsetzen"
+  ],
+  "image_prompt": "a cheerful woman in her late sixties with short grey hair wears a plain bright yellow safety vest without any print and work gloves, with a long litter grabber she drops a plastic bottle into a nearly full blue trash bag, in a green city park on a sunny morning, behind her three other volunteers in the same plain yellow vests pick up litter along the lawn and the path",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a cheerful older woman in a plain yellow vest picks up a plastic bottle from the grass with a litter grabber and drops it into a blue trash bag, then smiles and waves to other volunteers in yellow vests further along the park path; static medium shot",
+  "tags": [
+    "Gesellschaft",
+    "Ehrenamt",
+    "Umwelt",
+    "sich ehrenamtlich engagieren"
+  ]
+}

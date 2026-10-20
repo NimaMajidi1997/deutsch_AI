@@ -1,0 +1,32 @@
+{
+  "lemma": "genießen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "genießt",
+    "praeteritum": "genoss",
+    "perfekt": "hat genossen"
+  },
+  "separable": false,
+  "rektion": "etw. (Akk.) genießen (den Feierabend, das Essen, die Sonne genießen)",
+  "meaning_en": "to enjoy",
+  "definition_de": "etwas Angenehmes mit Freude und in Ruhe erleben (die Ruhe, das Wetter, den Urlaub genießen)",
+  "example_de": "Nach einem langen Arbeitstag genießt er den Feierabend mit einem kühlen Bier auf dem Balkon.",
+  "example_en": "After a long working day he enjoys his evening off with a cold beer on the balcony.",
+  "user_example_de": "den Feierabend genießen",
+  "visual_idea": "The user's collocation 'den Feierabend genießen' wins: the loosened tie, office shirt and work bag dropped by the door say 'Feierabend', and the feet up, closed eyes and evening sun say 'genießen'. Every noun of the sentence is visible (Bier, Balkon, after-work clothes). A still is enough.",
+  "contrast_with": [
+    "sich freuen",
+    "sich entspannen",
+    "mögen"
+  ],
+  "image_prompt": "a man in his thirties in a white office shirt with rolled-up sleeves and a loosened tie leans back in a wooden chair on a small Altbau balcony, eyes closed, a relaxed contented smile, bare feet up on the railing, a cold glass bottle of beer in his hand, his leather work bag and shoes dropped by the balcony door, flower boxes, warm golden evening sun over the rooftops",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a man in an office shirt with a loosened tie sits on a balcony in the evening sun, puts his bare feet up on the railing, takes a slow sip from a cold beer bottle, leans back and closes his eyes with a contented sigh; static medium shot",
+  "tags": [
+    "Freizeit",
+    "Alltag",
+    "den Feierabend genießen"
+  ]
+}

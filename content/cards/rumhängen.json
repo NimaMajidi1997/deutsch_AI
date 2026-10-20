@@ -1,0 +1,32 @@
+{
+  "lemma": "rumhängen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "hängt rum",
+    "praeteritum": "hing rum",
+    "perfekt": "hat rumgehangen"
+  },
+  "separable": true,
+  "rektion": "(irgendwo) rumhängen: auf dem Sofa, zu Hause, mit Freunden rumhängen",
+  "meaning_en": "(colloquial) to hang around, to laze around",
+  "definition_de": "umgangssprachlich (kurz für herumhängen): die Zeit ohne Ziel verbringen, faulenzen, nichts Sinnvolles tun (Wir haben das ganze Wochenende nur rumgehangen.)",
+  "example_de": "Statt seine Hausaufgaben zu machen, hat er den ganzen Nachmittag auf dem Sofa rumgehangen.",
+  "example_en": "Instead of doing his homework, he lazed around on the sofa all afternoon.",
+  "visual_idea": "Collocation 'auf dem Sofa rumhängen': a teenager sprawled upside down across the sofa, legs over the backrest, bored, staring at his phone, while his school backpack lies unopened on the floor. The upside-down 'hanging' pose matches the verb literally, and the closed backpack shows what he should be doing. Sofa, Nachmittag (afternoon light) and the homework (backpack) are visible.",
+  "contrast_with": [
+    "faulenzen",
+    "chillen",
+    "hängen"
+  ],
+  "image_prompt": "a teenage boy in a grey hoodie and sweatpants lies upside down across a big sofa in a living room, his legs hanging over the backrest and his head dangling near the floor, bored half-closed eyes staring at his phone held above his face, his closed school backpack lying untouched on the floor next to the sofa, an empty crisps bag on the cushion, lazy afternoon sunlight through the window",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "a teenage boy lies upside down on a sofa with his legs over the backrest, scrolls lazily on his phone, yawns, glances at his closed school backpack on the floor and goes back to scrolling; static medium shot, afternoon sunlight",
+  "tags": [
+    "Alltag",
+    "Umgangssprache",
+    "Jugend",
+    "auf dem Sofa rumhängen"
+  ]
+}

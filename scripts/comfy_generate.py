@@ -4,10 +4,14 @@ Usage:
     # card images, plus "before" frames for cards with a video_start_prompt (Qwen-Image Lightning)
     python scripts/comfy_generate.py content/cards/*.json --with-start
     python scripts/comfy_generate.py content/cards/falten.json --style illustration --seed 500
-    # videos (14B i2v; use wan22_14b_i2v_720.json for 720p)
-    python scripts/comfy_generate.py content/cards/*.json --workflow workflows/wan22_14b_i2v.json --prompt-field video_prompt
-    # video that must end on the card image (first + last frame, result cards only)
-    python scripts/comfy_generate.py content/cards/zerstören.json --workflow workflows/wan22_14b_flf2v.json --prompt-field video_prompt --force
+    # videos: workflow picked per card (first + last frame if it has a video_start_prompt, else i2v)
+    python scripts/comfy_generate.py content/cards/*.json --prompt-field video_prompt
+    # one workflow for all cards instead, e.g. 720p i2v
+    python scripts/comfy_generate.py content/cards/durchblättern.json --prompt-field video_prompt --workflow workflows/wan22_14b_i2v_720.json
+
+Workflow (without --workflow): image runs use qwen2512_lightning.json; video_prompt runs use
+wan22_14b_flf2v.json for cards with a video_start_prompt (the video must end on the card image,
+which shows the result) and wan22_14b_i2v.json for the rest (the card image is the first frame).
 
 Workflows: API-format JSON (see workflows/) with the placeholders {{POSITIVE}}, {{NEGATIVE}},
 {{SEED}}, {{PREFIX}} and, for image->video, {{IMAGE}} (start frame) and {{END_IMAGE}} (end frame)
@@ -25,6 +29,9 @@ Output in content/media/<card>/ (<card> = card file name without .json), role fr
 video_start_prompt -> start, video_prompt -> video): <role>_<style>.<ext> (e.g. card_realistic.png).
 With --variants > 1, or --force when that file exists, files are numbered instead
 (<card>_<style>_<role>_NNNNN_.<ext>); rename the chosen one by hand.
+
+Seed: one per card (--seed, else random), shared by its card and start frame in --with-start runs.
+To redo only the start frame, pass the card image's seed (printed when it was queued) with --seed.
 
 Existing media is skipped: a job is skipped when the folder already has a file of that role
 (final or numbered), so rerunning content/cards/*.json renders only what is missing, e.g. after
@@ -48,10 +55,29 @@ import uuid
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_WORKFLOW = ROOT / "workflows" / "qwen2512_lightning.json"
+WORKFLOWS = ROOT / "workflows"
+DEFAULT_WORKFLOW = WORKFLOWS / "qwen2512_lightning.json"
+VIDEO_WORKFLOW = WORKFLOWS / "wan22_14b_i2v.json"
+RESULT_VIDEO_WORKFLOW = WORKFLOWS / "wan22_14b_flf2v.json"  # first + last frame
 MEDIA_DIR = ROOT / "content" / "media"
 STYLES_FILE = ROOT / "config" / "styles.json"
 ROLES = {"image_prompt": "card", "video_start_prompt": "start", "video_prompt": "video"}
+
+
+def load_workflow(path, cache={}):
+    """Return (workflow, needs_image, needs_end) for a workflow file, read once."""
+    if path not in cache:
+        text = Path(path).read_text(encoding="utf-8")
+        cache[path] = (json.loads(text), "{{IMAGE}}" in text, "{{END_IMAGE}}" in text)
+    return cache[path]
+
+
+def pick_workflow(args, card):
+    if args.workflow:
+        return args.workflow
+    if args.prompt_field != "video_prompt":
+        return DEFAULT_WORKFLOW
+    return RESULT_VIDEO_WORKFLOW if card.get("video_start_prompt") else VIDEO_WORKFLOW
 
 
 def fill(node, values):
@@ -146,7 +172,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("cards", nargs="+", help="card JSON files (globs allowed)")
     parser.add_argument("--host", default="127.0.0.1:8188", help="ComfyUI host:port")
-    parser.add_argument("--workflow", default=str(DEFAULT_WORKFLOW), help="API-format workflow JSON")
+    parser.add_argument("--workflow", help="API-format workflow JSON for all cards (default: picked per card, see above)")
     parser.add_argument("--prompt-field", default="image_prompt", choices=ROLES, help="card field used as {{POSITIVE}}")
     parser.add_argument("--force", action="store_true", help="render even if the card already has media for this role")
     parser.add_argument("--with-start", action="store_true", help="image runs: also render video_start_prompt for cards that have one")
@@ -163,13 +189,9 @@ def main():
         sys.exit(f"Unknown style '{style_name}'. Available: {', '.join(styles['styles'])}")
 
     paths = [p for pattern in args.cards for p in (glob.glob(pattern) or [pattern])]
-    workflow_text = Path(args.workflow).read_text(encoding="utf-8")
-    workflow = json.loads(workflow_text)
-    needs_image = "{{IMAGE}}" in workflow_text
-    needs_end = "{{END_IMAGE}}" in workflow_text
     fields = [args.prompt_field]
     if args.with_start:
-        if args.prompt_field != "image_prompt" or needs_image:
+        if args.prompt_field != "image_prompt" or (args.workflow and load_workflow(args.workflow)[1]):
             sys.exit("--with-start only works for image runs (image workflow, --prompt-field image_prompt)")
         fields.append("video_start_prompt")
     client_id = str(uuid.uuid4())
@@ -182,6 +204,11 @@ def main():
     for path in paths:
         card = json.loads(Path(path).read_text(encoding="utf-8"))
         card_id = Path(path).stem  # file name, e.g. umfahren_trennbar
+        workflow_path = pick_workflow(args, card)
+        workflow, needs_image, needs_end = load_workflow(workflow_path)
+        # One seed per card: with --with-start, card and start frame share it, so the same seed and
+        # camera sentence give the same scene (a video between two different scenes morphs).
+        base_seed = args.seed if args.seed is not None else random.randint(0, 2**31)
         if card.get("video_start_prompt") and not card.get("needs_video"):
             print(f"warning {card_id}: has a video_start_prompt but needs_video is not true")
         for field in fields:
@@ -226,12 +253,11 @@ def main():
                     print(f"skip {card_id} video: no {end.name} yet")
                     continue
                 values["END_IMAGE"] = upload_image(args.host, end)
-            base_seed = args.seed if args.seed is not None else random.randint(0, 2**31)
             for i in range(args.variants):
                 seed = base_seed + i
                 prompt = fill(workflow, {**values, "SEED": seed})
                 result = json.loads(api(args.host, "/prompt", {"prompt": prompt, "client_id": client_id}))
-                print(f"{card_id} {role} [{i + 1}/{args.variants}] style={style_name} seed={seed} queued ...", flush=True)
+                print(f"{card_id} {role} [{i + 1}/{args.variants}] style={style_name} seed={seed} workflow={Path(workflow_path).name} queued ...", flush=True)
                 outputs = wait_for(args.host, result["prompt_id"], args.timeout)
                 saved = download_outputs(args.host, outputs, MEDIA_DIR / card_id)
                 if args.variants == 1 and len(saved) == 1 and not existing_final(card_id, style_name, role):

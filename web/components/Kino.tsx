@@ -2,45 +2,63 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { useEnglish } from "@/lib/store";
+import { leastRecentlySeen, markSeen, useEnglish } from "@/lib/store";
 import type { Verb } from "@/lib/types";
 import { Lemma } from "./Lemma";
 import { Sentence } from "./Sentence";
 
-const STILL_MS = 7000;
+const STILL_MS = 8000;
+const VIDEO_HOLD_MS = 1000; // last frame stays after a video ends
 
 /**
  * A lean-back slideshow: the picture comes first, then the word, then the sentence.
- * Videos play to the end before moving on.
+ * Videos play to the end before moving on. Each show starts with the cards watched least
+ * recently (never-seen first), so reopening it brings new verbs before the review.
  */
-export function Kino({ verbs }: { verbs: Verb[] }) {
+export function Kino({ verbs: given }: { verbs: Verb[] }) {
+  const [verbs, setVerbs] = useState<Verb[] | null>(null);
   const [i, setI] = useState(0);
   const [playing, setPlaying] = useState(true);
   const [phase, setPhase] = useState(0); // 0 picture, 1 word, 2 sentence
+  const [ended, setEnded] = useState(false);
   const { english, setEnglish } = useEnglish();
   const video = useRef<HTMLVideoElement>(null);
-  const v = verbs[i];
+  const count = verbs?.length ?? 0;
+  const v = verbs?.[i];
 
-  const go = useCallback((d: number) => setI((n) => (n + d + verbs.length) % verbs.length), [verbs.length]);
+  // Order once per opening (localStorage is client-only); it stays fixed while the show runs.
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setVerbs(leastRecentlySeen(given));
+    setI(0);
+  }, [given]);
+
+  const go = useCallback((d: number) => setI((n) => (count ? (n + d + count) % count : 0)), [count]);
 
   // Reveal word and sentence step by step for each new slide.
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setPhase(0);
+    setEnded(false);
     const a = setTimeout(() => setPhase(1), 1200);
     const b = setTimeout(() => setPhase(2), 2600);
     return () => {
       clearTimeout(a);
       clearTimeout(b);
     };
-  }, [i]);
+  }, [i, verbs]);
 
-  // Stills advance on a timer; videos advance when they end (see onEnded).
+  // A card counts as seen once its sentence has been on screen.
   useEffect(() => {
-    if (!playing || v?.media.video) return;
-    const t = setTimeout(() => go(1), STILL_MS);
+    if (phase >= 2 && v) markSeen(v.id);
+  }, [phase, v]);
+
+  // Stills advance on a timer; videos shortly after they end.
+  useEffect(() => {
+    if (!playing || !v || (v.media.video && !ended)) return;
+    const t = setTimeout(() => go(1), v.media.video ? VIDEO_HOLD_MS : STILL_MS);
     return () => clearTimeout(t);
-  }, [i, playing, v, go]);
+  }, [i, playing, v, ended, go]);
 
   useEffect(() => {
     const el = video.current;
@@ -63,6 +81,8 @@ export function Kino({ verbs }: { verbs: Verb[] }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [go]);
 
+  if (!verbs) return <div className="kino" />;
+
   if (!v) {
     return (
       <div className="kino kino-empty">
@@ -83,15 +103,15 @@ export function Kino({ verbs }: { verbs: Verb[] }) {
             muted
             playsInline
             autoPlay={playing}
-            onEnded={() => (playing ? go(1) : undefined)}
+            onEnded={() => setEnded(true)}
             aria-label={v.example_de}
           />
         ) : v.media.card ? (
           <Image src={v.media.card} alt={v.example_de} fill sizes="100vw" priority className="kino-img" />
         ) : null}
         {/* Next picture warms up in the background. */}
-        {verbs[(i + 1) % verbs.length].media.card && (
-          <Image src={verbs[(i + 1) % verbs.length].media.card!} alt="" fill sizes="100vw" className="kino-preload" />
+        {verbs[(i + 1) % count].media.card && (
+          <Image src={verbs[(i + 1) % count].media.card!} alt="" fill sizes="100vw" className="kino-preload" />
         )}
       </div>
 
@@ -112,7 +132,7 @@ export function Kino({ verbs }: { verbs: Verb[] }) {
           Schließen
         </Link>
         <span className="kino-pos">
-          {i + 1} / {verbs.length}
+          {i + 1} / {count}
         </span>
         <div className="kino-ctrl">
           <button className="kino-btn" onClick={() => go(-1)} aria-label="Vorheriges Bild">
@@ -133,7 +153,7 @@ export function Kino({ verbs }: { verbs: Verb[] }) {
           <span
             key={`${v.id}-${playing}`}
             className={playing && !v.media.video ? "is-running" : ""}
-            style={{ animationDuration: `${STILL_MS}ms`, width: `${((i + 1) / verbs.length) * 100}%` }}
+            style={{ animationDuration: `${STILL_MS}ms`, width: `${((i + 1) / count) * 100}%` }}
           />
         </div>
       </div>

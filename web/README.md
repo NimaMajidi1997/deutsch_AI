@@ -2,6 +2,8 @@
 
 Next.js 16 site that shows the cards from `../content/cards` with their media from `../content/media`
 (read per request and served by `app/media/[...path]/route.ts`, so new media needs no rebuild).
+Media URLs contain the file's mtime (`/media/v<mtime>/<card>/<file>`), so a re-rendered file shows up
+at once instead of a cached old copy.
 
 ```bash
 npm install
@@ -24,5 +26,7 @@ verb parts are marked and joined by a bracket (Satzklammer).
   Tiles show the image and play the video on hover.
 - `/verb/[id]`: image/video/before-after stage, forms, sentence with speech output, pair, family. ← → to browse.
 - `/kino?ids=…`: slideshow of the current selection: picture first, then word, then sentence.
+  Stills stay 8 s, videos hold their last frame 1 s. Each opening starts with never-seen cards,
+  then the ones watched longest ago (a card counts as seen once its sentence was shown).
 
-Bookmarks and settings live in `localStorage`. No backend.
+Bookmarks, settings and Kino's seen list live in `localStorage`. No backend.

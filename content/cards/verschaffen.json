@@ -1,0 +1,31 @@
+{
+  "lemma": "verschaffen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "verschafft",
+    "praeteritum": "verschaffte",
+    "perfekt": "hat verschafft"
+  },
+  "separable": false,
+  "rektion": "sich (Dat.) / jdm. etw. (Akk.) verschaffen (einen Überblick, Respekt, Zugang, Klarheit)",
+  "meaning_en": "to obtain, to get (for oneself or someone); sich einen Überblick verschaffen: to get an overview",
+  "definition_de": "dafür sorgen, dass man selbst oder jemand anderes etwas bekommt (sich einen Überblick / Respekt / Zugang verschaffen; jdm. eine Stelle verschaffen)",
+  "example_de": "Gleich am ersten Tag verschafften wir uns vom Kirchturm aus einen Überblick über die Altstadt.",
+  "example_en": "On the very first day we got an overview of the old town from the church tower.",
+  "visual_idea": "Collocation 'sich einen Überblick verschaffen' (by far the most frequent use): two tourists at the top of a church tower look down on the whole old town spread out below, so 'Überblick' is literally visible and the dative 'uns' is the people on the tower. Rejected: 'sich Zugang verschaffen' (a person climbing through a window reads as 'einbrechen') and 'sich Respekt verschaffen' (a teacher in a quiet class reads as 'unterrichten').",
+  "contrast_with": [
+    "schaffen",
+    "beschaffen",
+    "besorgen"
+  ],
+  "image_prompt": "two young tourists with small backpacks stand at the stone railing of the open gallery at the very top of a tall church tower, one points down at the view; below them a wide panorama of an old German town seen from high above, red tiled roofs, narrow winding lanes, a market square, a river with a stone bridge, green hills on the horizon, clear morning light",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "two young tourists step out onto the gallery at the top of a church tower, walk to the railing and look down at the old town with red roofs, one slowly points across the panorama from the market square to the river; slow pan from the tourists out over the town",
+  "tags": [
+    "Reisen",
+    "Stadt",
+    "sich einen Überblick verschaffen"
+  ]
+}

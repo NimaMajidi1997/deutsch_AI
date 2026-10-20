@@ -1,0 +1,33 @@
+{
+  "lemma": "erleben",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "erlebt",
+    "praeteritum": "erlebte",
+    "perfekt": "hat erlebt"
+  },
+  "separable": false,
+  "rektion": "etw. (Akk.) erleben (ein Abenteuer, eine Überraschung, etwas Schönes erleben)",
+  "meaning_en": "to experience, to go through",
+  "definition_de": "etwas selbst mitmachen, sehen oder fühlen (ein Abenteuer, eine Enttäuschung erleben); auch: einen Zeitpunkt noch miterleben (Sie hat die Hochzeit ihres Enkels noch erlebt.)",
+  "example_de": "Auf ihrer Kanutour durch Schweden haben die beiden Freunde ein echtes Abenteuer erlebt.",
+  "example_en": "On their canoe trip through Sweden the two friends had a real adventure.",
+  "user_example_de": "ein Abenteuer erleben",
+  "visual_idea": "The user's collocation 'ein Abenteuer erleben' wins: two friends in a loaded canoe on a wild misty lake, one throwing her arms up in joy, so the picture shows both the adventure and the personal experience of it. Kanutour, Schweden (red cabin, pine forest), Freunde are all visible. A still is enough.",
+  "contrast_with": [
+    "erfahren",
+    "mitmachen",
+    "leben"
+  ],
+  "image_prompt": "two young friends in a red canoe loaded with backpacks and a rolled tent glide across a wide wild lake, the woman in front throws both arms up in joy and laughs, the man behind her holds his paddle and grins, morning mist over the water, dense pine forest on rocky shores, a small red wooden cabin with white corners on a distant island, golden sunrise light",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "two friends paddle a red canoe loaded with backpacks across a misty wild lake at sunrise, the woman in front stops paddling, throws both arms up and laughs while the canoe glides past pine forest and a small red cabin; slow tracking shot from the side",
+  "tags": [
+    "Freizeit",
+    "Reise",
+    "Natur",
+    "ein Abenteuer erleben"
+  ]
+}

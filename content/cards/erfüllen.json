@@ -1,0 +1,32 @@
+{
+  "lemma": "erfüllen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "erfüllt",
+    "praeteritum": "erfüllte",
+    "perfekt": "hat erfüllt"
+  },
+  "separable": false,
+  "rektion": "sich (Dat.) / jdm. etw. (Akk.) erfüllen (einen Traum, einen Wunsch); eine Aufgabe / Bedingung erfüllen",
+  "meaning_en": "to fulfil (a dream, a wish); to meet (a requirement)",
+  "definition_de": "einen Wunsch oder Traum wahr werden lassen; auch: tun, was verlangt wird (eine Pflicht / die Voraussetzungen erfüllen)",
+  "example_de": "Mit 75 Jahren hat sich mein Opa endlich seinen Traum erfüllt: eine Fahrt im Heißluftballon.",
+  "example_en": "At 75, my grandpa finally fulfilled his dream: a hot-air balloon ride.",
+  "visual_idea": "Collocation 'sich einen Traum erfüllen': an old man beaming with raised arms in a balloon basket high above the land. Pure joy plus an obvious 'once in a lifetime' activity makes 'dream come true' readable, and the age in the sentence explains 'endlich'. Rejected: 'die Voraussetzungen erfüllen' (a job interview shows nothing) and 'jdm. einen Wunsch erfüllen' (a gift reads as 'schenken').",
+  "contrast_with": [
+    "füllen",
+    "ausfüllen",
+    "verwirklichen"
+  ],
+  "image_prompt": "an old man with white hair and a white beard stands in the wicker basket of a colourful hot-air balloon high in the sky, both arms raised in joy, laughing with tears of happiness, the striped balloon envelope above him; far below rolling green hills, small villages and a river in soft sunrise light, a few other balloons in the distance",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "an old man with white hair stands in the basket of a hot-air balloon floating slowly over green hills at sunrise; he looks down in wonder, then raises both arms and laughs with joy; slow camera drifting alongside the basket",
+  "tags": [
+    "Freizeit",
+    "Familie",
+    "Gefühle",
+    "sich einen Traum erfüllen"
+  ]
+}

@@ -104,6 +104,9 @@ Procedure for every word:
 - ❌ Paper, books and maps attract fake text, and stacks of panels turn into books.
 - ❌ Motion described as a shape ("a fan of pages flying past") becomes a literal object (a fan
   of loose sheets). Describe one natural, calm moment; the motion belongs in `video_prompt`.
+- ❌ "Her back to the doors" draws a back view, so the person seems to walk the opposite way
+  (aussteigen came out as einsteigen). For direction, say what faces the camera: "her face and the
+  front of her jacket clearly visible".
 - If the meaning is only a motion with no visible result, still pick the clearest image, and
   set `needs_video: true` and say why in `visual_idea` (see section 4).
 
@@ -134,18 +137,20 @@ Procedure for every word:
 
 ## 4. Video prompt rules (Wan 2.2, ~5 s)
 - English, describe start state → motion → end state in one continuous shot.
-- Static or slow camera, one actor, slow and readable motion. Same subject/style as the image so
-  the image can be used as the first frame (image→video).
+- Static or slow camera, one actor, slow and readable motion. Same subject/style as the image,
+  because the card image is a frame of the video: the last frame for before/after cards, the
+  first frame for motion cards (the script picks the workflow from `video_start_prompt`).
 - **`needs_video`** decides whether the card gets a video. `true` only when the video adds real
   meaning; otherwise `false` (the still image plus sentence is enough, no video is made):
   - **Before/after state:** the card image shows the result (wings spread, sandcastle destroyed,
     boy underwater). Also write `video_start_prompt`: the same scene and style in the **before**
-    state (wings folded). It becomes the video's first frame. Start both prompts with the **same
+    state (wings folded). It becomes the video's first frame and the card image its last. Start both prompts with the **same
     camera + layout sentence** (viewpoint, where each object stands) and change only the state;
     otherwise Wan morphs between two different scenes. For collisions, put the object **in the
     path of the motion** and say it falls "only when X touches it". The shared sentence holds only
     the camera and fixed things; name each changing object **once, in one state**, or it is drawn
-    twice (two mailboxes, two drivers).
+    twice (two mailboxes, two drivers). Describe a person **identically** in both prompts (hair,
+    clothes), or Wan morphs one person into another.
   - **Motion is the meaning** (durchblättern): no `video_start_prompt`; the video starts from the
     card image, so make sure that image works as a first frame.
 - A card with `video_start_prompt` always has `needs_video: true`.

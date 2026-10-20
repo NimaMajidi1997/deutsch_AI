@@ -1,0 +1,32 @@
+{
+  "lemma": "kehren",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "kehrt",
+    "praeteritum": "kehrte",
+    "perfekt": "hat gekehrt"
+  },
+  "separable": false,
+  "rektion": "jdm./etw. (Dat.) den Rücken kehren; (südd.) etw. kehren (= fegen)",
+  "meaning_en": "jdm. den Rücken kehren: to turn one's back on sb. (also: to leave, abandon); southern German: to sweep",
+  "definition_de": "jdm./etw. den Rücken kehren: sich abwenden, weggehen, nichts mehr damit zu tun haben wollen (der Stadt / der Politik den Rücken kehren); in Süddeutschland und Österreich auch: fegen (den Hof kehren)",
+  "example_de": "Nach dem heftigen Streit kehrte sie ihm wortlos den Rücken und verließ die Küche.",
+  "example_en": "After the heated argument, she turned her back on him without a word and left the kitchen.",
+  "visual_idea": "The user's collocation 'jdm. den Rücken kehren' won: it is the most common use of 'kehren' outside southern Germany, and literally visible. She walks toward the camera (face visible, so the direction is clear) with her back to the man left standing at the table behind her. Rejected: 'den Hof kehren' (regional; reads as 'fegen') and 'der Stadt den Rücken kehren' (a moving van reads as 'umziehen').",
+  "contrast_with": [
+    "umdrehen",
+    "verlassen",
+    "fegen",
+    "zurückkehren"
+  ],
+  "image_prompt": "a kitchen in an old apartment after an argument; in the foreground a woman with long red hair in a green sweater walks toward the camera with her arms crossed and a hurt, stony face, her face and the front of her sweater clearly visible; behind her, at the kitchen table, a man in a white shirt stands with his hands raised helplessly, looking at her back, two half-full coffee cups on the table",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in a kitchen a man in a white shirt and a woman with long red hair in a green sweater face each other across the table; she shakes her head, turns around without a word and walks slowly toward the camera with crossed arms while he raises his hands helplessly behind her; static camera",
+  "tags": [
+    "Gefühle",
+    "Beziehung",
+    "jemandem den Rücken kehren"
+  ]
+}

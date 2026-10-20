@@ -22,8 +22,8 @@ gain), LTX-2.x (too large for this PC).
 | Wan 2.2 14B, 720p | ~19 min | Only slightly sharper; 480p already looks good at website size (untertauchen), so 720p only for full screen |
 | Wan 2.2 14B "HQ" (no LoRA on the high-noise half, cfg 3.5, 4 of 8 steps) | ~47 min | ❌ Broken colors (neon grass, purple fur): too few steps without the LoRA. Done properly it would take over an hour |
 
-Still open: test first+last frame (`wan22_14b_flf2v.json`, built, untested) for videos that miss
-the end state (zerstören: castle not destroyed, bereuen: hair not cut); GGUF Q4/Q5 of
+First+last frame (`wan22_14b_flf2v.json`) is the default for before/after cards: i2v often missed
+the end state (zerstören: castle not destroyed), flf2v worked on umfahren. Still open: GGUF Q4/Q5 of
 14B for speed; upscaling 480p videos instead of rendering at 720p.
 HunyuanVideo: Tencent licenses have excluded the EU, so check before use.
 
@@ -49,6 +49,15 @@ HunyuanVideo: Tencent licenses have excluded the EU, so check before use.
   vs rear view). i2v and first+last frame then let the mailbox fall without contact and swung
   the camera. Fix: one shared camera/layout sentence in both prompts, obstacle in the car's path;
   with matching frames, flf2v showed the bumper knocking the mailbox over correctly.
+- Start and card frame with **different seeds** drew two different trains and women; flf2v then
+  morphed the train instead of moving her (aussteigen). Same seed + same camera sentence + the same
+  person description ("long brown hair, dark grey padded jacket, jeans") gave matching frames.
+  `--with-start` now shares one seed per card. Even with the same seed, colours that the prompt leaves
+  open can differ (red vs white doors) and flicker in the video: name them in the shared sentence.
+- Direction of a person: "walks toward the camera, her back to the doors" drew her from behind,
+  walking *into* the train (aussteigen read as einsteigen); "inside the train, facing the platform"
+  did the same. Describe what faces the camera and where she stands ("on the raised floor inside
+  the train, framed by the doorway, her face toward the camera"), never "her back".
 - Duplicates: an object named in two states ("a mailbox on the lawn" + "the mailbox lies in the grass")
   is drawn twice; "a door is open and a man stands beside it" gave two men. Name each object once,
   in one state, and say "a single …, the only person in the scene".

@@ -1,0 +1,33 @@
+{
+  "lemma": "auftauchen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "taucht auf",
+    "praeteritum": "tauchte auf",
+    "perfekt": "ist aufgetaucht"
+  },
+  "separable": true,
+  "rektion": "(aus etw. Dat.) auftauchen; (plötzlich irgendwo) auftauchen",
+  "meaning_en": "to surface, to emerge; to turn up, to show up (unexpectedly)",
+  "definition_de": "aus dem Wasser an die Oberfläche kommen; übertragen: plötzlich erscheinen oder wiedergefunden werden (Er tauchte erst um Mitternacht auf. Mein Schlüssel ist wieder aufgetaucht.)",
+  "example_de": "Plötzlich tauchte direkt neben unserem Boot ein riesiger Wal aus dem Wasser auf.",
+  "example_en": "Suddenly a huge whale surfaced right next to our boat.",
+  "visual_idea": "Collocation 'aus dem Wasser auftauchen': a whale breaks the surface right beside a small boat, water streaming off its back (auf- = up), and the tourists' amazement carries 'plötzlich'. It is the visual opposite of 'untertauchen' (boy going under). Rejected: 'plötzlich auftauchen' (a guest at the door reads as 'ankommen') and a found key (reads as 'finden'). Surfacing is a change, so a first+last-frame video starts with calm empty water.",
+  "contrast_with": [
+    "untertauchen",
+    "erscheinen",
+    "verschwinden"
+  ],
+  "image_prompt": "view from slightly behind a small white whale-watching boat on a calm dark-blue sea, three tourists in red and yellow rain jackets at the railing on the left; right beside the boat a huge humpback whale has surfaced, its dark head and long back rising high out of the water, white water streaming off its skin, spray in the air; the tourists lean back with open mouths and amazed faces, grey coastal cliffs far away",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "view from slightly behind a small white whale-watching boat on a calm dark-blue sea, three tourists in red and yellow rain jackets at the railing on the left; on the right side of the boat the water surface is calm and empty with only small ripples; the tourists look out relaxed over the sea, grey coastal cliffs far away",
+  "video_prompt": "from behind a small white boat on a calm sea, three tourists in red and yellow rain jackets look out over empty water; suddenly a huge humpback whale rises slowly out of the water right beside the boat, water streaming off its back, and the tourists lean back in amazement; static camera",
+  "tags": [
+    "Natur",
+    "Meer",
+    "Tiere",
+    "aus dem Wasser auftauchen"
+  ]
+}

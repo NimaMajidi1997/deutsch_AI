@@ -24,8 +24,8 @@ word (+ optional sentence) --/visual-card--> content/cards/<card>.json --scripts
 ## Current stack (Windows 11, RTX 3060 12 GB, 16 GB RAM)
 - ComfyUI Desktop, API `127.0.0.1:8188`; models in two folders (both in `modelsDirs`).
 - Images: **Qwen-Image 2512** (`workflows/qwen2512_lightning.json` default, `qwen2512_api.json` full).
-- Video: **Wan 2.2 14B i2v** 480p (`workflows/wan22_14b_i2v.json`), image→video, only for cards with `needs_video: true`;
-  `wan22_14b_flf2v.json` (first + last frame) when a video must end on the card image.
+- Video: **Wan 2.2 14B** 480p, only for cards with `needs_video: true`. The script picks per card:
+  `wan22_14b_flf2v.json` (first + last frame) if it has a `video_start_prompt`, else `wan22_14b_i2v.json`.
 - Style: `config/styles.json`, default **realistic**.
 - Python 3.10, `scripts/` uses the standard library only.
 

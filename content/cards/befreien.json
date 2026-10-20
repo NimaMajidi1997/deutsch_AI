@@ -1,0 +1,33 @@
+{
+  "lemma": "befreien",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "befreit",
+    "praeteritum": "befreite",
+    "perfekt": "hat befreit"
+  },
+  "separable": false,
+  "rektion": "jdn./etw./sich aus etw. (Dat.) / von etw. (Dat.) befreien",
+  "meaning_en": "to free, to release, to rescue (from)",
+  "definition_de": "jdn. oder etwas aus einer Gefangenschaft oder einer engen, gefährlichen Lage holen; auch: von etwas Lästigem frei machen (sich von Schulden befreien; von der Steuer befreit sein)",
+  "example_de": "Der Taucher schnitt das alte Fischernetz auf und befreite die Meeresschildkröte.",
+  "example_en": "The diver cut open the old fishing net and freed the sea turtle.",
+  "visual_idea": "Collocation 'ein Tier aus einem Netz befreien': the result state shows the turtle swimming away with flippers spread while the diver still holds the cut net, so trapped-then-free is visible in one frame. Rejected: a bird leaving an open cage (reads as 'freilassen') and a cat in a tree (reads as 'retten'). The change from trapped to free is the meaning, so a first+last-frame video starts with the turtle tangled in the net.",
+  "contrast_with": [
+    "freilassen",
+    "retten",
+    "fangen"
+  ],
+  "image_prompt": "underwater view in clear turquoise sea, sunlight rays falling from above, sandy bottom; on the left a diver in a black wetsuit with yellow fins holds a cut-open old green fishing net in one hand; on the right a large green sea turtle swims freely away from him, its front flippers spread wide, nothing on its body, small bubbles rising",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "underwater view in clear turquoise sea, sunlight rays falling from above, sandy bottom; on the left a diver in a black wetsuit with yellow fins reaches forward with a small knife; on the right a large green sea turtle is tightly wrapped in an old green fishing net, its flippers tangled and pressed against its shell",
+  "video_prompt": "underwater, static camera: a diver in a black wetsuit with yellow fins carefully cuts an old green fishing net wrapped around a large green sea turtle; the net falls open, the diver pulls it away and holds it, and the turtle spreads its flippers and slowly swims away free",
+  "tags": [
+    "Natur",
+    "Meer",
+    "Tiere",
+    "aus einem Netz befreien"
+  ]
+}

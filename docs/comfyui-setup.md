@@ -15,9 +15,9 @@ What is in use now. For test results and why these models were chosen, see `mode
 |---|---|---|---|---|
 | **`qwen2512_lightning.json`** | Images (**default**) | Qwen-Image 2512 fp8 + Lightning 4-step LoRA, cfg 1 | 1664×928 | ~40 s |
 | `qwen2512_api.json` | Images, full quality | Qwen-Image 2512 fp8, 50 steps, cfg 4 | 1664×928 | ~10 min |
-| **`wan22_14b_i2v.json`** | Video (**standard**) | Wan 2.2 14B i2v fp8 + lightx2v 4-step LoRAs | 832×480, 81 fr @16 fps | ~5.5 min |
+| **`wan22_14b_i2v.json`** | Video, cards without `video_start_prompt` (**auto**) | Wan 2.2 14B i2v fp8 + lightx2v 4-step LoRAs | 832×480, 81 fr @16 fps | ~5.5 min |
 | `wan22_14b_i2v_720.json` | Video, full screen only | same | 1280×720 | ~19 min |
-| `wan22_14b_flf2v.json` | Video that must end on the card image (first + last frame) | same | 832×480 | ~5.5 min? |
+| **`wan22_14b_flf2v.json`** | Video, cards with `video_start_prompt`: must end on the card image (first + last frame, **auto**) | same | 832×480 | ~5.5 min? |
 
 - Placeholders: `{{POSITIVE}}` (card prompt + style), `{{NEGATIVE}}`, `{{SEED}}`, `{{PREFIX}}`,
   `{{IMAGE}}` (start frame), `{{END_IMAGE}}` (end frame).
@@ -47,8 +47,8 @@ Each card gets **one** file per role, saved straight under its final name in
 
 | Role | Made from | File |
 |---|---|---|
-| Card image: shown on the website | `image_prompt` | `card_<style>.png` |
-| "Before" frame: first frame of the video | `video_start_prompt` | `start_<style>.png` |
+| Card image: shown on the website; also the video's last frame (before/after cards) or first frame (motion cards) | `image_prompt` | `card_<style>.png` |
+| "Before" frame: first frame of a before/after video | `video_start_prompt` | `start_<style>.png` |
 | Video: plays on hover | `video_prompt` | `video_<style>.mp4` |
 
 Files that already exist are skipped. So the loop is: **run → delete what you don't like → run
@@ -72,30 +72,33 @@ python scripts/comfy_generate.py content/cards/*.json --with-start
 python scripts/comfy_generate.py content/cards/falten.json --workflow workflows/qwen2512_api.json
 ```
 Leave out `--with-start` for card images only; `--prompt-field video_start_prompt` makes only
-"before" frames.
+"before" frames. Card and start frame share one seed per card, so they show the same scene; to redo
+only the start frame, pass the card's seed (printed when it was queued) with `--seed`.
 
-### 3. Video (image → video, ~5.5 min each)
+### 3. Video (~5.5 min each)
 ```powershell
-python scripts/comfy_generate.py content/cards/*.json --workflow workflows/wan22_14b_i2v.json --prompt-field video_prompt
+python scripts/comfy_generate.py content/cards/*.json --prompt-field video_prompt
 ```
-Only cards with `"needs_video": true` get a video. The first frame is `start_<style>.png` for
-cards with a `video_start_prompt` (made by `--with-start` in step 2; untertauchen), else the card
-image `card_<style>.png` (durchblättern). Cards whose first frame doesn't exist yet are skipped.
-To try another first frame for one card, add `--start-image <path>`.
+Only cards with `"needs_video": true` get a video. The script picks the workflow per card, so one
+command covers all cards:
 
-**Video doesn't reach the result** (the sandcastle isn't destroyed, the hair isn't cut)? Render it
-again with `wan22_14b_flf2v.json`: it starts at `start_<style>.png` and must end on
-`card_<style>.png`. Only for cards with a `video_start_prompt`.
-```powershell
-python scripts/comfy_generate.py content/cards/zerstören.json --workflow workflows/wan22_14b_flf2v.json --prompt-field video_prompt --force
-```
-With `--force` the new video is saved numbered next to the old one; keep the better one as
-`video_realistic.mp4`.
+| Card | Example | Workflow | First frame → last frame |
+|---|---|---|---|
+| has `video_start_prompt` (before/after) | zerstören, untertauchen | `wan22_14b_flf2v.json` | `start_<style>.png` → `card_<style>.png` |
+| no `video_start_prompt` (motion is the meaning) | durchblättern | `wan22_14b_i2v.json` | `card_<style>.png` → free |
+
+Before/after cards end on the card image, because it shows the result; with plain i2v Wan often
+stopped short of it (zerstören: castle still standing). Their `start_<style>.png` comes from
+`--with-start` in step 2, and both frames need the same camera and layout, or Wan morphs between
+them. Cards whose frames don't exist yet are skipped. `--workflow` uses one workflow for all cards
+(e.g. `wan22_14b_i2v_720.json`); `--start-image <path>` tries another first frame.
+To re-render a bad video, add `--force`: the new one is saved numbered next to the old one; keep
+the better one as `video_realistic.mp4`.
 
 ### Options
 | Option | Default | Effect |
 |---|---|---|
-| `--workflow` | `qwen2512_lightning.json` | workflow file |
+| `--workflow` | images `qwen2512_lightning.json`, videos per card (see step 3) | workflow for all cards |
 | `--prompt-field` | `image_prompt` | card field: `image_prompt`, `video_start_prompt`, `video_prompt` |
 | `--with-start` | off | image runs: also make "before" frames |
 | `--force` | off | render even if the file exists (saved numbered) |

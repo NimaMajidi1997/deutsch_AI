@@ -1,0 +1,33 @@
+{
+  "lemma": "aussteigen",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "steigt aus",
+    "praeteritum": "stieg aus",
+    "perfekt": "ist ausgestiegen"
+  },
+  "separable": true,
+  "rektion": "aus + Dat. (aus dem Zug, aus der S-Bahn, aus dem Auto aussteigen)",
+  "meaning_en": "to get off, to get out (of a vehicle)",
+  "definition_de": "ein Fahrzeug verlassen (aus dem Bus, aus dem Zug, aus dem Auto aussteigen). Übertragen: bei etwas nicht mehr mitmachen (aus einem Projekt aussteigen).",
+  "example_de": "Als die Türen aufgingen, stieg sie mit ihrem schweren Koffer aus der S-Bahn aus.",
+  "example_en": "When the doors opened, she got off the S-Bahn with her heavy suitcase.",
+  "visual_idea": "Collocation 'aus der S-Bahn aussteigen', the most common everyday use. A still of someone at train doors can read as einsteigen, so the direction is the meaning: the card shows the woman already on the platform walking away from the open doors toward the viewer, and a first+last-frame video shows her stepping out of the train. Every noun of the sentence is visible (open doors, heavy suitcase, S-Bahn). Start and card frames share one camera sentence, so the video only animates the step out.",
+  "contrast_with": [
+    "einsteigen",
+    "umsteigen",
+    "absteigen (vom Fahrrad)"
+  ],
+  "image_prompt": "view from the platform straight at the wide open sliding doors of a red commuter train, each door red on top with a white lower half, the doors in the exact centre of the frame, platform edge in the foreground, bright daylight, plain clean station with no signs or displays, static medium shot, a young woman with long brown hair, a dark grey padded jacket and jeans walks toward the camera two metres in front of the doors, her face clearly visible, pulling a large dark blue suitcase, the empty train behind her",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": true,
+  "video_start_prompt": "view from the platform straight at the wide open sliding doors of a red commuter train, each door red on top with a white lower half, the doors in the exact centre of the frame, platform edge in the foreground, bright daylight, plain clean station with no signs or displays, static medium shot, a young woman with long brown hair, a dark grey padded jacket and jeans stands on the raised floor inside the train, framed by the doorway, her face toward the camera, a large dark blue suitcase beside her, the platform empty",
+  "video_prompt": "static view from the platform at the open doors of a red and white commuter train, camera does not move: a young woman inside the train lifts her large dark blue suitcase, steps down out of the doors onto the platform, sets the suitcase on its wheels and walks slowly toward the camera, away from the train",
+  "tags": [
+    "Verkehr",
+    "Bahn",
+    "aus der S-Bahn aussteigen",
+    "Reise"
+  ]
+}

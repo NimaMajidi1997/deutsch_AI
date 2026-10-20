@@ -1,0 +1,32 @@
+{
+  "lemma": "unterhalten",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "unterhält",
+    "praeteritum": "unterhielt",
+    "perfekt": "hat unterhalten"
+  },
+  "separable": false,
+  "stress": "unterhálten",
+  "rektion": "sich mit jdm. (Dat.) über etw. (Akk.) unterhalten; jdn. unterhalten (Gäste, Publikum); etw. unterhalten (eine Familie, ein Haus)",
+  "meaning_en": "to talk, to chat (sich unterhalten); to entertain; to support, to maintain",
+  "definition_de": "sich unterhalten: mit jemandem (locker) sprechen; jdn. unterhalten: für Spaß sorgen (die Gäste unterhalten); etw. unterhalten: bezahlen und pflegen (eine Familie, ein Auto). Selten trennbar: únterhalten = etwas unter etwas halten (Er hält die Schüssel unter.)",
+  "example_de": "Über den Gartenzaun hinweg unterhielten sich die zwei Nachbarinnen, bis es dunkel wurde.",
+  "example_en": "The two neighbours chatted over the garden fence until it got dark.",
+  "visual_idea": "Collocation 'sich (mit jdm.) unterhalten', by far the most common use: two neighbours leaning on a garden fence, mid-conversation, laughing and gesturing; the dusk light shows they have been talking for hours. 'jdn. unterhalten' (entertain) and 'eine Familie unterhalten' (support) are less everyday and are in definition_de. The separable únterhalten is rare, so one card.",
+  "contrast_with": [
+    "sprechen",
+    "reden",
+    "diskutieren"
+  ],
+  "image_prompt": "two women in their sixties stand on either side of a low wooden garden fence between two neat German front gardens, both leaning their forearms on the fence and facing each other, one laughing with her head tilted back, the other gesturing with an open hand while talking, a watering can and a garden rake leaning on the fence, rose bushes, warm dusk light with a deep blue sky and lit house windows behind them",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "two older women lean on a low garden fence facing each other at dusk, one talks and gestures with her hand, the other nods and bursts out laughing, then answers while the first listens; static medium shot, lit windows behind them",
+  "tags": [
+    "Kommunikation",
+    "Nachbarschaft",
+    "sich mit jdm. unterhalten"
+  ]
+}

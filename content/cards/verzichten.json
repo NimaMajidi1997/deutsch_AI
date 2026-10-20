@@ -1,0 +1,32 @@
+{
+  "lemma": "verzichten",
+  "type": "verb",
+  "level": "B2",
+  "forms": {
+    "praesens": "verzichtet",
+    "praeteritum": "verzichtete",
+    "perfekt": "hat verzichtet"
+  },
+  "separable": false,
+  "rektion": "auf etw. (Akk.) verzichten",
+  "meaning_en": "to do without, to give up, to forgo",
+  "definition_de": "etwas freiwillig nicht nehmen oder nicht tun, obwohl man es haben könnte (auf Zucker / auf das Auto / auf einen Anspruch verzichten)",
+  "example_de": "Bei der Geburtstagsfeier im Büro verzichtet Anna diesmal auf die Sahnetorte und trinkt nur Tee.",
+  "example_en": "At the office birthday party, Anna gives the cream cake a miss this time and only drinks tea.",
+  "visual_idea": "Collocation 'auf Süßes verzichten': everyone around her is eating cake while she smiles and raises her palm at the offered slice, holding only tea. The contrast (others eat, she doesn't, by choice and smiling) shows voluntary doing-without; the sentence rules out plain 'ablehnen'. Rejected: 'aufs Auto verzichten' (a cyclist just reads as 'Rad fahren') and 'auf Fleisch verzichten' (a vegetable plate shows nothing missing).",
+  "contrast_with": [
+    "ablehnen",
+    "aufgeben",
+    "verzeihen"
+  ],
+  "image_prompt": "office birthday party around a table with a large white cream cake, a few colourful balloons and paper cups; two colleagues happily eat slices of cake from small plates; in the centre a young woman with short dark hair smiles kindly and raises her open palm toward a colleague who offers her a plate with a big slice of cream cake, in her other hand she holds only a cup of tea, bright modern office",
+  "negative_prompt": "text, letters, watermark, signature, caption, blurry, extra fingers, deformed hands, cluttered background, multiple panels",
+  "needs_video": false,
+  "video_prompt": "in a bright office a colleague offers a young woman with short dark hair a plate with a big slice of cream cake; she smiles, raises her open palm and shakes her head, then lifts her cup of tea and sips it while the others eat cake; static camera",
+  "tags": [
+    "Alltag",
+    "Büro",
+    "Essen",
+    "auf etwas verzichten"
+  ]
+}
